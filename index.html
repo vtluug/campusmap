@@ -125,12 +125,19 @@ function zoomToLocation(position)
 		<h1>Virginia Tech Campus Map</h1>
 	</div>
 
-	<div id='map'></div>
-	<form action='' method='get' id='toolbar_frm'>
-		<select name='route' id='route_selector' disabled='disabled'>
-			<option value=''>Loading bus routes&hellip;</option>
-		</select>
-	</form>
+	<div id='content'>
+
+	<div id='map_container'>
+		<div id='map'></div>
+
+		<div id='map_toolbar'>
+			<form action='' method='get' id='toolbar_frm'>
+				<select name='route' id='route_selector' disabled='disabled'>
+					<option value=''>Loading bus routes&hellip;</option>
+				</select>
+			</form>
+		</div>
+	</div>
 
 	<script type='text/javascript'>
 	// <![CDATA[
@@ -138,6 +145,8 @@ function zoomToLocation(position)
 	initBusData();
 	// ]]>
 	</script>
+
+	</div>
 
 	<div id='footer'>
 		A service of the <a href='http://vtluug.org/'>Linux and Unix Users Group at Virginia Tech</a>
