@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Virginia Tech Campus Map</title>
+<meta http-equiv='Content-Type' content="text/html; charset=utf-8" />
+<link rel='stylesheet' type='text/css' href='css/global.css' />
+<script type='text/javascript' src="js/jquery.js"></script>
+<script type='text/javascript' src="js/openlayers/OpenLayers.js"></script>
+<script type='text/javascript' src="js/OpenStreetMap.js"></script>
+<script type='text/javascript' src="js/busdata.js"></script>
+<script type='text/javascript'>
+// <![CDATA[
+
+// initial location and zoom
+lat = 37.231797472275744;
+lon = -80.42846213700699;
+INITIAL_ZOOM = 14;
+CLOSER_ZOOM = 17;
+
+var map;
+
+AutoSizeAnchored = OpenLayers.Class(OpenLayers.Popup.Anchored, { 'autoSize': true });
+AutoSizeAnchoredBubble = OpenLayers.Class(OpenLayers.Popup.AnchoredBubble, { 'autoSize': true });
+
+/**
+ * Add a marker to the specified layer
+ */
+function addMarker(layer, ll, popupClass, popupContent, data)
+{
+	feature = new OpenLayers.Feature(layer, ll);
+	feature.closeBox = data['closeBox'];
+	feature.popupClass = popupClass;
+	feature.data.popupContentHTML = popupContent;
+	feature.data.overflow = 'auto';
+
+	if(data['icon'])
+	{
+		feature.data.icon = data['icon'];
+	}
+
+	marker = feature.createMarker();
+
+	markerClick = function(e)
+	{
+		if(this.popup == null)
+		{
+			this.popup = this.createPopup(this.closeBox);
+			map.addPopup(this.popup);
+			this.popup.show();
+		}
+		else {
+			this.popup.toggle();
+		}
+
+		currentPopup = this.popup;
+
+		// stop the event here before it does any serious damage!
+		OpenLayers.Event.stop(e);
+	};
+	marker.events.register('mousedown', feature, markerClick);
+
+	layer.addMarker(marker);
+}
+
+function initMap()
+{
+	map		 = new OpenLayers.Map('map', {
+		controls			: [
+			new OpenLayers.Control.Navigation(),
+			new OpenLayers.Control.PanZoomBar(),
+			//new OpenLayers.Control.LayerSwitcher({'ascending':false}),
+			new OpenLayers.Control.Attribution()
+		],
+		units				: 'm',
+		//projection			: new OpenLayers.Projection("EPSG:900913"),
+		//displayProjection	: new OpenLayers.Projection("EPSG:4326"),
+	});
+
+	// OpenStreetMap base layer
+	mapnik = new OpenLayers.Layer.OSM.Mapnik('OpenStreetMap');
+	map.addLayer(mapnik);
+
+	// Markers layer
+	markers = new OpenLayers.Layer.Markers('Markers');
+	map.addLayer(markers);
+
+	epsg4326 = new OpenLayers.Projection('EPSG:4326');
+
+	// center map on Blacksburg
+	loc			= new OpenLayers.LonLat(lon, lat).transform(
+		epsg4326, map.getProjectionObject());
+	map.setCenter(loc, INITIAL_ZOOM);
+
+	// TODO: add a "Where Am I?" button
+}
+
+function showMyLocation()
+{
+	if(navigator.geolocation)
+	{
+		navigator.geolocation.getCurrentPosition(zoomToLocation);
+	}
+}
+
+function zoomToLocation(position)
+{
+	loc			= new OpenLayers.LonLat(position.coords.longitude, position.coords.latitude).
+					transform(epsg4326, map.getProjectionObject());
+
+	// add green marker to indicate location
+	size		= new OpenLayers.Size(21, 25);
+	icon		= new OpenLayers.Icon('js/openlayers/img/marker-green.png', size);
+	markers.addMarker(new OpenLayers.Marker(loc, icon));
+
+	// zoom in a bit
+	map.setCenter(loc, CLOSER_ZOOM);
+}
+
+// ]]>
+</script>
+</head>
+<body>
+<div id='wrapper'>
+	<div id='header'>
+		<h1>Virginia Tech Campus Map</h1>
+	</div>
+
+	<div id='map'></div>
+	<form action='' method='get' id='toolbar_frm'>
+		<select name='route' id='route_selector' disabled='disabled'>
+			<option value=''>Loading bus routes&hellip;</option>
+		</select>
+	</form>
+
+	<script type='text/javascript'>
+	// <![CDATA[
+	initMap();
+	initBusData();
+	// ]]>
+	</script>
+
+	<div id='footer'>
+		A service of the <a href='http://vtluug.org/'>Linux and Unix Users Group at Virginia Tech</a>
+	</div>
+</div>
+</body>
+</html>
+
