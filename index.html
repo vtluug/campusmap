@@ -91,10 +91,26 @@ function initMap()
 		epsg4326, map.getProjectionObject());
 	map.setCenter(loc, INITIAL_ZOOM);
 
-	// TODO: add a "Where Am I?" button
+	// add a "Where Am I?" button
+	addLocateButton();
 }
 
-function showMyLocation()
+function addLocateButton()
+{
+	if(navigator.geolocation)
+	{
+		atag = document.createElement('a');
+		atag.className = 'fake_button';
+		atag.href = 'javascript:void(null)';
+		atag.innerHTML = "Where Am I?";
+
+		atag.addEventListener('mousedown', showMyLocation, true);
+
+		$('#map_toolbar').prepend(atag);
+	}
+}
+
+function showMyLocation(e)
 {
 	if(navigator.geolocation)
 	{
