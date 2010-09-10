@@ -1,15 +1,18 @@
 body
 {
 	margin: 0;
+	background: #f5f5eb;
 	font-family: sans-serif;
 	font-size: 90%;
 }
 
 #header
 {
-	margin-bottom: 12px;
-	background: #660000;
+	background: url(../images/scanline.png) #660000;
 	color: #f5f5eb;
+
+	background: url(../images/scanline.png), -moz-linear-gradient(90deg, #770000, #990000);
+	background: url(../images/scanline.png), -webkit-gradient(linear, 0 0, 0 100%, from(#990000), to(#770000));
 }
 
 #header, #footer
@@ -19,27 +22,40 @@ body
 
 #header h1
 {
-	margin: 0;
 	padding: 0;
 	font-family: "Delicious", sans-serif;
 	font-size: 2.7em;
 }
 
-#content
+/* center header and content, give it a standard width */
+#header h1,
+#content_wrapper
 {
+	width: 1015px;
 	margin: 0 auto;
-	width: 1004px;
+}
+
+#content_wrapper
+{
+	padding: 12px 6px;
+	background: #fff;
+}
+
+#map_container,
+#map
+{
+	width: 996px;
 }
 
 #map_container
 {
+	margin: 0 auto;
 	padding: 1px;
 	border: 1px solid #dbd8bc;
 }
 
 #map
 {
-	width: 1000px;
 	height: 700px;
 }
 
@@ -57,9 +73,24 @@ body
 	background: #f5f5eb;
 }
 
+#map_toolbar .fake_button
+{
+	float: right;
+	display: inline-block;
+	margin: 1px;
+	padding: 3px;
+	/*border: 1px solid #5e5851;*/
+	background: #dbccbd;
+	color: #5e5851;
+	text-decoration: none;
+	font-size: 0.9em;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
 #footer
 {
-	margin-top: 12px;
 	font-size: 0.9em;
 }
 
