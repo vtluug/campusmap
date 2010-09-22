@@ -17,15 +17,15 @@ updateTimer = null;
 function initBusData()
 {
 	// Bus route layer
-	busRoutes = new OpenLayers.Layer.Vector('Bus Routes');
+	busRoutes = new OpenLayers.Layer.Vector('Bus Routes', { visibility : false });
 	map.addLayer(busRoutes);
 
 	// Bus stops layer
-	busStops = new OpenLayers.Layer.Markers('Bus Stops');
+	busStops = new OpenLayers.Layer.Markers('Bus Stops', { visibility : false });
 	map.addLayer(busStops);
 
 	// Buses layer
-	busMarkers = new OpenLayers.Layer.Markers('Buses', { attribution : "Bus data from <a href='http://bustracker.org' rel='external'>VT Bus Tracker</a>" });
+	busMarkers = new OpenLayers.Layer.Markers('Buses', { attribution : "Bus data from <a href='http://bustracker.org' rel='external'>VT Bus Tracker</a>", visibility : false });
 	map.addLayer(busMarkers);
 
 	loadRoutes();
@@ -114,8 +114,11 @@ function setActiveRoute(val)
 {
 	if(val.length == 0)
 	{
+		hideBusLayers();
 		return;
 	}
+
+	showBusLayers();
 
 	routeId = val;
 	loadRoute();
@@ -272,5 +275,25 @@ function addBuses(buses)
 function initRouteUpdates()
 {
 	updateTimer = setInterval(updateBuses, BUS_UPDATE_INTERVAL);
+}
+
+/**
+ * Make all bus layers visible (they are hidden by default)
+ */
+function showBusLayers()
+{
+	busRoutes.setVisibility(true);
+	busStops.setVisibility(true);
+	busMarkers.setVisibility(true);
+}
+
+/**
+ * Hide all bus layers
+ */
+function hideBusLayers()
+{
+	busRoutes.setVisibility(false);
+	busStops.setVisibility(false);
+	busMarkers.setVisibility(false);
 }
 
