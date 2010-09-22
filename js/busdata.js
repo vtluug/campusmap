@@ -161,7 +161,7 @@ function addShape(pts)
 	{
 		pt = new OpenLayers.Geometry.Point(pts[i]['lon'], pts[i]['lat']);
 
-		points.push(pt.transform(epsg4326, map.getProjectionObject()));;
+		points.push(pt.transform(EPSG_4326, map.getProjectionObject()));;
 	}
 
 	// remove existing route
@@ -208,7 +208,7 @@ function addStops(stops)
 		//popupData = "Scheduled Arrival: ";
 
 		// create marker and add to "bus stops" layer
-		addMarker(busStops, loc.transform(epsg4326, map.getProjectionObject()), AutoSizeAnchored, popupData, { 'closeBox' : true });
+		addMarker(busStops, loc.transform(EPSG_4326, map.getProjectionObject()), AutoSizeAnchored, popupData, { 'closeBox' : true });
 
 		// add popup to marker
 		//marker.events.register('mousedown', marker, showStopPopup);
@@ -265,7 +265,7 @@ function addBuses(buses)
 		popupData += "Last Updated: " + buses[i]['latestUpdate'];
 
 		// create marker and add to "bus markers" layer
-		addMarker(busMarkers, loc.transform(epsg4326, map.getProjectionObject()), AutoSizeAnchored, popupData,  { 'closeBox' : true, 'icon' : icon});
+		addMarker(busMarkers, loc.transform(EPSG_4326, map.getProjectionObject()), AutoSizeAnchored, popupData,  { 'closeBox' : true, 'icon' : icon});
 	}
 }
 
