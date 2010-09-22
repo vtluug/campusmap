@@ -7,133 +7,9 @@
 <script type='text/javascript' src="js/jquery.js"></script>
 <script type='text/javascript' src="js/openlayers/OpenLayers.js"></script>
 <script type='text/javascript' src="js/OpenStreetMap.js"></script>
+<script type='text/javascript' src="js/map.js"></script>
 <script type='text/javascript' src="js/busdata.js"></script>
-<script type='text/javascript'>
-// <![CDATA[
-
-// initial location and zoom
-lat = 37.231797472275744;
-lon = -80.42846213700699;
-INITIAL_ZOOM = 14;
-CLOSER_ZOOM = 17;
-
-var map;
-
-AutoSizeAnchored = OpenLayers.Class(OpenLayers.Popup.Anchored, { 'autoSize': true });
-AutoSizeAnchoredBubble = OpenLayers.Class(OpenLayers.Popup.AnchoredBubble, { 'autoSize': true });
-
-/**
- * Add a marker to the specified layer
- */
-function addMarker(layer, ll, popupClass, popupContent, data)
-{
-	feature = new OpenLayers.Feature(layer, ll);
-	feature.closeBox = data['closeBox'];
-	feature.popupClass = popupClass;
-	feature.data.popupContentHTML = popupContent;
-	feature.data.overflow = 'auto';
-
-	if(data['icon'])
-	{
-		feature.data.icon = data['icon'];
-	}
-
-	marker = feature.createMarker();
-
-	markerClick = function(e)
-	{
-		if(this.popup == null)
-		{
-			this.popup = this.createPopup(this.closeBox);
-			map.addPopup(this.popup);
-			this.popup.show();
-		}
-		else {
-			this.popup.toggle();
-		}
-
-		currentPopup = this.popup;
-
-		// stop the event here before it does any serious damage!
-		OpenLayers.Event.stop(e);
-	};
-	marker.events.register('mousedown', feature, markerClick);
-
-	layer.addMarker(marker);
-}
-
-function initMap()
-{
-	map		 = new OpenLayers.Map('map', {
-		controls			: [
-			new OpenLayers.Control.Navigation(),
-			new OpenLayers.Control.PanZoomBar(),
-			//new OpenLayers.Control.LayerSwitcher({'ascending':false}),
-			new OpenLayers.Control.Attribution()
-		],
-		units				: 'm',
-		//projection			: new OpenLayers.Projection("EPSG:900913"),
-		//displayProjection	: new OpenLayers.Projection("EPSG:4326"),
-	});
-
-	// OpenStreetMap base layer
-	mapnik = new OpenLayers.Layer.OSM.Mapnik('OpenStreetMap');
-	map.addLayer(mapnik);
-
-	// Markers layer
-	markers = new OpenLayers.Layer.Markers('Markers');
-	map.addLayer(markers);
-
-	epsg4326 = new OpenLayers.Projection('EPSG:4326');
-
-	// center map on Blacksburg
-	loc			= new OpenLayers.LonLat(lon, lat).transform(
-		epsg4326, map.getProjectionObject());
-	map.setCenter(loc, INITIAL_ZOOM);
-
-	// add a "Where Am I?" button
-	addLocateButton();
-}
-
-function addLocateButton()
-{
-	if(navigator.geolocation)
-	{
-		atag = document.createElement('a');
-		atag.className = 'fake_button';
-		atag.href = 'javascript:void(null)';
-		atag.innerHTML = "Where Am I?";
-
-		atag.addEventListener('mousedown', showMyLocation, true);
-
-		$('#map_toolbar').prepend(atag);
-	}
-}
-
-function showMyLocation(e)
-{
-	if(navigator.geolocation)
-	{
-		navigator.geolocation.getCurrentPosition(zoomToLocation);
-	}
-}
-
-function zoomToLocation(position)
-{
-	loc			= new OpenLayers.LonLat(position.coords.longitude, position.coords.latitude).
-					transform(epsg4326, map.getProjectionObject());
-
-	// add green marker to indicate location
-	size		= new OpenLayers.Size(21, 25);
-	icon		= new OpenLayers.Icon('js/openlayers/img/marker-green.png', size);
-	markers.addMarker(new OpenLayers.Marker(loc, icon));
-
-	// zoom in a bit
-	map.setCenter(loc, CLOSER_ZOOM);
-}
-
-// ]]>
-</script>
+<script type='text/javascript' src="js/geolocation.js"></script>
 </head>
 <body>
 <div id='wrapper'>
@@ -161,6 +37,7 @@ function zoomToLocation(position)
 			// <![CDATA[
 			initMap();
 			initBusData();
+			addLocateButton();
 			// ]]>
 			</script>
 		</div>
