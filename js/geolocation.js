@@ -10,10 +10,11 @@ function addLocateButton()
 
 	atag = document.createElement('a');
 	atag.className = 'fake_button';
-	atag.href = 'javascript:void(null)';
+	atag.href = '#';
 	atag.innerHTML = "Where Am I?";
 
-	atag.addEventListener('mousedown', showMyLocation, true);
+	//atag.addEventListener('mousedown', showMyLocation, false);
+	$(atag).bind('click', showMyLocation);
 
 	$('#map_toolbar').prepend(atag);
 }
@@ -23,6 +24,8 @@ function addLocateButton()
  */
 function showMyLocation(e)
 {
+	e.preventDefault();
+
 	if(navigator.geolocation)
 	{
 		navigator.geolocation.getCurrentPosition(markAndZoomGeo);
