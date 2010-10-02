@@ -73,11 +73,16 @@ body
 	background: #f5f5eb;
 }
 
+#map_toolbar #search_box
+{
+	float: right;
+}
+
 #map_toolbar .fake_button
 {
 	float: right;
 	display: inline-block;
-	margin: 1px;
+	margin: 1px 1px 1px 10px;
 	padding: 3px;
 	/*border: 1px solid #5e5851;*/
 	background: #dbccbd;

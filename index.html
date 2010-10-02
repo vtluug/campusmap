@@ -9,6 +9,7 @@
 <script type='text/javascript' src="js/OpenStreetMap.js"></script>
 <script type='text/javascript' src="js/map.js"></script>
 <script type='text/javascript' src="js/busdata.js"></script>
+<script type='text/javascript' src="js/nominatim.js"></script>
 <script type='text/javascript' src="js/geolocation.js"></script>
 </head>
 <body>
@@ -27,6 +28,8 @@
 						<select name='route' id='route_selector' disabled='disabled'>
 							<option value=''>Loading bus routes&hellip;</option>
 						</select>
+
+						<input name='q' id='search_box' value='' />
 					</form>
 
 					<div class='clear'></div>
@@ -37,6 +40,7 @@
 			// <![CDATA[
 			initMap();
 			initBusData();
+			initSearch();
 			addLocateButton();
 			// ]]>
 			</script>
