@@ -6,6 +6,7 @@ function addLocateButton()
 	if(!navigator.geolocation)
 	{
 		// button should not be added if feature is not supported by browser
+		return;
 	}
 
 	atag = document.createElement('a');
@@ -37,6 +38,9 @@ function showMyLocation(e)
  */
 function markAndZoomGeo(position)
 {
+	// clear existing markers
+	markers.clearMarkers();
+
 	loc			= new OpenLayers.LonLat(position.coords.longitude, position.coords.latitude).
 					transform(EPSG_4326, map.getProjectionObject());
 
