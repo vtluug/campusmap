@@ -1,3 +1,6 @@
+WHERE_AM_I_TEXT = "Where Am I?";
+WHERE_AM_I_HOVER_TEXT = "Find your current location on the map (accuracy may vary)";
+
 /**
  * Add a "Where Am I?" button to the map if geolocation is supported by the browser
  */
@@ -9,15 +12,13 @@ function addLocateButton()
 		return;
 	}
 
-	atag = document.createElement('a');
-	atag.className = 'fake_button';
-	atag.href = '#';
-	atag.innerHTML = "Where Am I?";
+	buttontag = document.createElement('button');
+	buttontag.title = WHERE_AM_I_HOVER_TEXT;
+	buttontag.innerHTML = WHERE_AM_I_TEXT;
 
-	//atag.addEventListener('mousedown', showMyLocation, false);
-	$(atag).bind('click', showMyLocation);
+	$(buttontag).bind('click', showMyLocation);
 
-	$('#map_toolbar').prepend(atag);
+	$('#map_toolbar').prepend(buttontag);
 }
 
 /**

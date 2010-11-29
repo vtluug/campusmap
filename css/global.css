@@ -78,11 +78,16 @@ body
 	margin-top: 1px;
 }
 
+#map_toolbar button,
 #map_toolbar .fake_button
 {
 	float: right;
-	display: inline-block;
 	margin: 1px 1px 1px 10px;
+}
+
+#map_toolbar .fake_button
+{
+	display: inline-block;
 	padding: 3px;
 	/*border: 1px solid #5e5851;*/
 	background: #dbccbd;
