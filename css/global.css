@@ -67,15 +67,15 @@ body
 	opacity: 0.6;
 }
 
-#map_toolbar
+#map_toolbar,
+#map_search
 {
-	margin-top: 1px;
 	background: #f5f5eb;
 }
 
-#map_toolbar #search_box
+#map_toolbar
 {
-	float: right;
+	margin-top: 1px;
 }
 
 #map_toolbar .fake_button
@@ -92,6 +92,12 @@ body
 
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+	-moz-display:
+}
+
+#map_search
+{
+	padding-top: 2px;
 }
 
 #footer

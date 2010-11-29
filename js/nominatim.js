@@ -10,7 +10,7 @@ function initSearch()
 {
 	searchbox = $('#search_box');
 
-	searchbox.bind('focus', function(e)
+	/*searchbox.bind('focus', function(e)
 		{
 			if(e.target.value == SEARCH_TEXT)
 			{
@@ -23,9 +23,9 @@ function initSearch()
 			{
 				e.target.value = SEARCH_TEXT;
 			}
-		});
+		});*/
 
-	$('#toolbar_frm').bind('submit', function(e)
+	$('#search_frm').bind('submit', function(e)
 		{
 			e.preventDefault();
 
