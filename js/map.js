@@ -18,10 +18,11 @@ function initMap()
 {
 	map		 = new OpenLayers.Map('map', {
 		controls			: [
+			new OpenLayers.Control.Attribution(),
 			new OpenLayers.Control.Navigation(),
 			new OpenLayers.Control.PanZoomBar(),
 			//new OpenLayers.Control.LayerSwitcher({'ascending':false}),
-			new OpenLayers.Control.Attribution()
+			new OpenLayers.Control.ScaleLine({geodesic: true})
 		],
 		units				: 'm',
 		//projection			: new OpenLayers.Projection("EPSG:900913"),
