@@ -11,7 +11,7 @@ AutoSizeAnchoredBubble = OpenLayers.Class(OpenLayers.Popup.AnchoredBubble, { 'au
 
 var map;
 
-OpenLayers.ImgPath = "/map/images/openlayers/dark/";
+OpenLayers.ImgPath = "/images/openlayers/dark/";
 
 /**
  * Initialize the map

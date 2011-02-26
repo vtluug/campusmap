@@ -47,7 +47,7 @@ OpenLayers.Layer.OSM.Mapnik = OpenLayers.Class(OpenLayers.Layer.OSM, {
             //"http://a.tile.openstreetmap.org/${z}/${x}/${y}.png",
             //"http://b.tile.openstreetmap.org/${z}/${x}/${y}.png",
             //"http://c.tile.openstreetmap.org/${z}/${x}/${y}.png"
-			"http://vtluug.org/map/tiles/${z}/${x}/${y}.png"
+			"http://map.vtluug.org/tiles/${z}/${x}/${y}.png"
         ];
         options = OpenLayers.Util.extend({ numZoomLevels: 20, buffer: 0 }, options);
         var newArguments = [name, url, options];
