@@ -1,5 +1,5 @@
 NOMINATIM_URL = "http://nominatim.openstreetmap.org/search";
-NOMINATIM_EMAIL = 'vtluug_campus_map@james.schwinabart.com';
+NOMINATIM_EMAIL = 'campusmap@vtluug.org';
 
 SEARCH_TEXT = "Search...";
 
