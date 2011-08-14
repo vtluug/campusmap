@@ -23,7 +23,7 @@ function initMap()
 			new OpenLayers.Control.Attribution(),
 			new OpenLayers.Control.Navigation(),
 			new OpenLayers.Control.PanZoomBar(),
-			new OpenLayers.Control.LayerSwitcher({'ascending':false}),
+			//new OpenLayers.Control.LayerSwitcher({'ascending':false}),
 			new OpenLayers.Control.ScaleLine({geodesic: true})
 		],
 		units				: 'm',
