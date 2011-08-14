@@ -85,4 +85,3 @@ function addMarker(layer, ll, popupClass, popupContent, data)
 
 	layer.addMarker(marker);
 }
-

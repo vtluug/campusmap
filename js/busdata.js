@@ -296,4 +296,3 @@ function hideBusLayers()
 	busStops.setVisibility(false);
 	busMarkers.setVisibility(false);
 }
-

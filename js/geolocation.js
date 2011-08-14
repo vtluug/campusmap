@@ -53,4 +53,3 @@ function markAndZoomGeo(position)
 	// zoom in a bit
 	map.setCenter(loc, CLOSER_ZOOM);
 }
-
