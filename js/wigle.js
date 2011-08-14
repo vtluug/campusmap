@@ -1,6 +1,7 @@
 OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 	name: "WiGLE",
-	url: 'http://wigle.net/gps/gps//GPSDB/onlinemap2/',
+	//url: 'http://wigle.net/gps/gps//GPSDB/onlinemap2/',
+	url: 'http://a.tile.map.vtluug.org/wigle/',
 	attribution: "Wifi data &copy; 2011 <a href='http://wigle.net' rel='external'>WiGLE</a>",
 
 	isBaseLayer: false,
@@ -9,7 +10,6 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 	serverResolutions: null,
 
 	initialize: function(name, options) {
-		this.tileSize = new OpenLayers.Size(256, 256);
 		name = name || this.name;
 		url = this.url;
 		options = OpenLayers.Util.extend({
@@ -34,6 +34,7 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 	},
 
 	getURL: function(bounds) {
+		// WiGLE data is actually stored in spherical mercator, but the queries use EPSG:4326
 		srcproj = new OpenLayers.Projection('EPSG:900913');
 		var tl = new OpenLayers.LonLat(bounds.left, bounds.top);
 		tl = tl.transform(srcproj, EPSG_4326);
@@ -41,10 +42,6 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 		br = br.transform(srcproj, EPSG_4326);
 
 		return url + '?lat1=' + tl.lat + '&long1=' + tl.lon + '&lat2=' + br.lat + '&long2=' + br.lon + '&redir=Y&networksOnly=Y&sizeX=256&sizeY=256';
-	},
-
-	setMap: function(map) {
-		OpenLayers.Layer.XYZ.prototype.setMap.apply(this, arguments);
 	},
 
 	CLASS_NAME: "OpenLayers.Layer.WiGLE"
