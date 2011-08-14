@@ -67,6 +67,17 @@ body
 	opacity: 0.6;
 }
 
+.olControlLayerSwitcher > div > span,
+.olControlLayerSwitcher .layersDiv
+{
+	background: #333 !important;
+}
+
+.olControlOverviewMapElement
+{
+	background: #666;
+}
+
 #map_toolbar,
 #map_search
 {
