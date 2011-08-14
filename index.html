@@ -13,6 +13,7 @@
 <script type='text/javascript' src="js/busdata.js"></script>
 <script type='text/javascript' src="js/nominatim.js"></script>
 <script type='text/javascript' src="js/geolocation.js"></script>
+<script type='text/javascript' src="js/wigle.js"></script>
 </head>
 <body>
 <div id='wrapper'>
@@ -49,6 +50,9 @@
 			initBusData();
 			initSearch();
 			addLocateButton();
+
+			wigle = new OpenLayers.Layer.WiGLE('WiGLE');
+			map.addLayer(wigle);
 			// ]]>
 			</script>
 		</div>
