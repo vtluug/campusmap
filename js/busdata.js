@@ -17,15 +17,21 @@ updateTimer = null;
 function initBusData()
 {
 	// Bus route layer
-	busRoutes = new OpenLayers.Layer.Vector('Bus Routes', { visibility : false });
+	busRoutes = new OpenLayers.Layer.Vector('Bus Routes', {
+		displayInLayerSwitcher: false, visibility: false });
 	map.addLayer(busRoutes);
 
 	// Bus stops layer
-	busStops = new OpenLayers.Layer.Markers('Bus Stops', { visibility : false });
+	busStops = new OpenLayers.Layer.Markers('Bus Stops', {
+		displayInLayerSwitcher: false, visibility: false });
 	map.addLayer(busStops);
 
 	// Buses layer
-	busMarkers = new OpenLayers.Layer.Markers('Buses', { attribution : "Bus data from <a href='http://bustracker.org' rel='external'>VT Bus Tracker</a>", visibility : false });
+	busMarkers = new OpenLayers.Layer.Markers('Buses', {
+		attribution: "Bus data from <a href='http://bustracker.org' rel='external'>" +
+		"VT Bus Tracker</a>",
+		displayInLayerSwitcher: false,
+		visibility: false });
 	map.addLayer(busMarkers);
 
 	loadRoutes();

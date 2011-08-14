@@ -11,7 +11,7 @@ AutoSizeAnchoredBubble = OpenLayers.Class(OpenLayers.Popup.AnchoredBubble, { 'au
 
 var map;
 
-OpenLayers.ImgPath = "/images/openlayers/dark/";
+OpenLayers.ImgPath = "http://localhost/map.vtluug.org/images/openlayers/dark/";
 
 /**
  * Initialize the map
@@ -23,7 +23,7 @@ function initMap()
 			new OpenLayers.Control.Attribution(),
 			new OpenLayers.Control.Navigation(),
 			new OpenLayers.Control.PanZoomBar(),
-			//new OpenLayers.Control.LayerSwitcher({'ascending':false}),
+			new OpenLayers.Control.LayerSwitcher({'ascending':false}),
 			new OpenLayers.Control.ScaleLine({geodesic: true})
 		],
 		units				: 'm',
@@ -36,7 +36,7 @@ function initMap()
 	map.addLayer(mapnik);
 
 	// Markers layer
-	markers = new OpenLayers.Layer.Markers('Markers');
+	markers = new OpenLayers.Layer.Markers('Markers', { displayInLayerSwitcher: false });
 	map.addLayer(markers);
 
 	// center map on Blacksburg
