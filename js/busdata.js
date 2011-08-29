@@ -1,4 +1,5 @@
-BUS_FEED_URL = "http://bustrackerfeed.appspot.com/feed"; // Bus Tracker feed
+//BUS_FEED_URL = "http://bustrackerfeed.appspot.com/feed"; // Bus Tracker feed
+BUS_FEED_URL = "https://a2b-bt.appspot.com/feed";
 BUS_FEED_DEVKEY = '0xfvgLLXqIXvjq2NAtmsDV5Dr6aSqn6wj5rEbh1FNwqqMUHHTfEtlvMTtfVMgdWI'; // FIXME: get your own
 BUS_AGENCY_ID = 'f0859a7c-ab70-4a23-9469-b3d4a743d5f6';
 
@@ -28,8 +29,8 @@ function initBusData()
 
 	// Buses layer
 	busMarkers = new OpenLayers.Layer.Markers('Buses', {
-		attribution: "Bus data from <a href='http://bustracker.org' rel='external'>" +
-		"VT Bus Tracker</a>",
+		attribution: "Bus data from <a href='http://a2bgoanywhere.com' rel='external'>" +
+		"A2B Go Anywhere</a>",
 		displayInLayerSwitcher: false,
 		visibility: false });
 	map.addLayer(busMarkers);
