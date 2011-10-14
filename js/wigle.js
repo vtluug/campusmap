@@ -41,7 +41,10 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 		var br = new OpenLayers.LonLat(bounds.right, bounds.bottom);
 		br = br.transform(srcproj, EPSG_4326);
 
-		return url + '?lat1=' + tl.lat + '&long1=' + tl.lon + '&lat2=' + br.lat + '&long2=' + br.lon + '&redir=Y&networksOnly=Y&sizeX=256&sizeY=256';
+		returl = url + '?lat1=' + tl.lat + '&long1=' + tl.lon + '&lat2=' + br.lat + '&long2=' + br.lon + '&redir=Y&networksOnly=Y&sizeX=256&sizeY=256';
+		returl += '&startTransID=20100000-00000';
+
+		return returl;
 	},
 
 	CLASS_NAME: "OpenLayers.Layer.WiGLE"
