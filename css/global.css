@@ -1,128 +1,128 @@
 body
 {
-	margin: 0;
-	background: #f5f5eb;
-	font-family: sans-serif;
-	font-size: 90%;
+    margin: 0;
+    background: #f5f5eb;
+    font-family: "DejaVu Sans", "Bitstream Vera Sans", sans-serif;
+    font-size: 90%;
 }
 
 #header
 {
-	background: url(../images/scanline.png) #660000;
-	color: #f5f5eb;
+    background: url(../images/scanline.png) #660000;
+    color: #f5f5eb;
 
-	background: url(../images/scanline.png), -moz-linear-gradient(90deg, #770000, #990000);
-	background: url(../images/scanline.png), -webkit-gradient(linear, 0 0, 0 100%, from(#990000), to(#770000));
+    background: url(../images/scanline.png), -moz-linear-gradient(90deg, #770000, #990000);
+    background: url(../images/scanline.png), -webkit-gradient(linear, 0 0, 0 100%, from(#990000), to(#770000));
 }
 
 #header, #footer
 {
-	padding: 12px;
+    padding: 12px;
 }
 
 #header h1
 {
-	padding: 0;
-	font-family: "Delicious", sans-serif;
-	font-size: 2.7em;
+    padding: 0;
+    font-family: "Delicious", "Trebuchet MS", "DejaVu Sans", "Bitstream Vera Sans", sans-serif;
+    font-size: 2.7em;
+    font-weight: normal;
 }
 
 /* center header and content, give it a standard width */
 #header h1,
 #content_wrapper
 {
-	width: 1015px;
-	margin: 0 auto;
+    width: 1015px;
+    margin: 0 auto;
 }
 
 #content_wrapper
 {
-	padding: 12px 6px;
-	background: #fff;
+    padding: 12px 6px;
+    background: #fff;
 }
 
 #map_container,
 #map
 {
-	width: 996px;
+    width: 996px;
 }
 
 #map_container
 {
-	margin: 0 auto;
-	padding: 1px;
-	border: 1px solid #dbd8bc;
+    margin: 0 auto;
+    padding: 1px;
+    border: 1px solid #dbd8bc;
 }
 
 #map
 {
-	height: 700px;
+    height: 700px;
 }
 
 .olControlAttribution
 {
-	bottom: 3px !important;
-	font-size: 0.75em !important;
-	text-shadow: 0 0 4px #fff;
-	opacity: 0.6;
+    bottom: 3px !important;
+    font-size: 0.75em !important;
+    text-shadow: 0 0 4px #fff;
+    opacity: 0.6;
 }
 
 .olControlLayerSwitcher > div > span,
 .olControlLayerSwitcher .layersDiv
 {
-	background: #333 !important;
+    background: #333 !important;
 }
 
 .olControlOverviewMapElement
 {
-	background: #666;
+    background: #666;
 }
 
 #map_toolbar,
 #map_search
 {
-	background: #f5f5eb;
+    background: #f5f5eb;
 }
 
 #map_toolbar
 {
-	margin-top: 1px;
+    margin-top: 1px;
 }
 
 #map_toolbar button,
 #map_toolbar .fake_button
 {
-	float: right;
-	margin: 1px 1px 1px 10px;
+    float: right;
+    margin: 1px 1px 1px 10px;
 }
 
 #map_toolbar .fake_button
 {
-	display: inline-block;
-	padding: 3px;
-	/*border: 1px solid #5e5851;*/
-	background: #dbccbd;
-	color: #5e5851;
-	text-decoration: none;
-	font-size: 0.9em;
+    display: inline-block;
+    padding: 3px;
+    /*border: 1px solid #5e5851;*/
+    background: #dbccbd;
+    color: #5e5851;
+    text-decoration: none;
+    font-size: 0.9em;
 
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-display:
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-display:
 }
 
 #map_search
 {
-	padding-top: 2px;
+    padding-top: 2px;
 }
 
 #footer
 {
-	font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 .clear
 {
-	clear: both;
+    clear: both;
 }
-
