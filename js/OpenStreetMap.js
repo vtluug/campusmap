@@ -48,7 +48,7 @@ OpenLayers.Layer.OSM.Mapnik = OpenLayers.Class(OpenLayers.Layer.OSM, {
 			"http://b.tile.map.vtluug.org/${z}/${x}/${y}.png",
 			"http://c.tile.map.vtluug.org/${z}/${x}/${y}.png",
         ];
-        options = OpenLayers.Util.extend({ numZoomLevels: 20, buffer: 0 }, options);
+        options = OpenLayers.Util.extend({ numZoomLevels: 21, buffer: 0 }, options);
         var newArguments = [name, url, options];
         OpenLayers.Layer.OSM.prototype.initialize.apply(this, newArguments);
     },
