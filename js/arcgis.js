@@ -1,3 +1,6 @@
+/**
+ * Callback for ArcGIS REST API.
+ */
 function arcgis_callback(map, name, layerURL, layerInfo)
 {
     var maxExtent = new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34);
@@ -29,6 +32,9 @@ function arcgis_callback(map, name, layerURL, layerInfo)
     map.addLayer(layer);
 }
 
+/**
+ * Add an ARCGis layer by accessing the REST API.
+ */
 function arcgis_add(layerName, layerURL)
 {
     jsonp_url = layerURL + '?f=json&pretty=true&callback=?';
