@@ -3,7 +3,8 @@
  */
 function arcgis_callback(map, name, layerURL, layerInfo)
 {
-    var maxExtent = new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34);
+    var maxExtent = new OpenLayers.Bounds(-20037508.34, -20037508.34,
+            20037508.34, 20037508.34);
             
     //Max extent from layerInfo above            
     var layerMaxExtent = new OpenLayers.Bounds(
@@ -22,11 +23,14 @@ function arcgis_callback(map, name, layerURL, layerInfo)
             name,
             layerURL,
             {
-                resolutions: resolutions,
-                tileSize: new OpenLayers.Size(layerInfo.tileInfo.cols, layerInfo.tileInfo.rows),                        
-                tileOrigin: new OpenLayers.LonLat(layerInfo.tileInfo.origin.x , layerInfo.tileInfo.origin.y),                        
-                maxExtent: layerMaxExtent,                        
-                projection: 'EPSG:' + layerInfo.spatialReference.wkid
+                resolutions:    resolutions,
+                tileSize:       new OpenLayers.Size(layerInfo.tileInfo.cols,
+                                    layerInfo.tileInfo.rows),
+                tileOrigin:     new OpenLayers.LonLat(
+                                    layerInfo.tileInfo.origin.x,
+                                    layerInfo.tileInfo.origin.y),
+                maxExtent:      layerMaxExtent,                        
+                projection:     'EPSG:' + layerInfo.spatialReference.wkid,
 
             });
     map.addLayer(layer);
@@ -38,5 +42,7 @@ function arcgis_callback(map, name, layerURL, layerInfo)
 function arcgis_add(layerName, layerURL)
 {
     jsonp_url = layerURL + '?f=json&pretty=true&callback=?';
-	$.getJSON(jsonp_url, function(data){arcgis_callback(map, layerName, layerURL, data);});
+	$.getJSON(jsonp_url, function(data){
+	    arcgis_callback(map, layerName, layerURL, data);
+	});
 }
