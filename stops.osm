@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. It has there been collected by a large group of contributors. For individual attribution of each item please refer to http://www.openstreetmap.org/api/0.6/[node|way|relation]/#id/history </note>
+<meta osm_base="2012-01-16T22\:27\:02Z"/>
+
+  <node id="700331086" lat="37.2365602" lon="-80.4268296">
+    <tag k="bburg:bt_stopid" v="83c70d3c-09ea-42d4-a3a4-d102f4d0df43"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gilbert Linkous Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1301"/>
+  </node>
+  <node id="721634919" lat="37.2285418" lon="-80.4197642">
+    <tag k="bburg:bt_stopid" v="144035e7-4271-46d2-ab7a-04609bc7f0a9"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Newman Library"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1100"/>
+  </node>
+  <node id="721635429" lat="37.2264147" lon="-80.4252995">
+    <tag k="bburg:bt_stopid" v="4d30ce13-b25e-4462-ba34-ceb5e45c7d16"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Davidson Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1102"/>
+  </node>
+  <node id="721642840" lat="37.2212964" lon="-80.4221666">
+    <tag k="bburg:bt_stopid" v="f05cef95-3add-4c97-b9e2-f57d5ce1e3cd"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="McComas Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1123"/>
+  </node>
+  <node id="726761277" lat="37.2353942" lon="-80.4208385">
+    <tag k="bburg:bt_stopid" v="8637973f-31f1-4374-9eef-3f989e9160a6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Kabrich Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1421"/>
+  </node>
+  <node id="726767557" lat="37.2297764" lon="-80.4191051">
+    <tag k="bburg:bt_stopid" v="f0b19ebb-69ac-432a-aaae-d768d40c4a9f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Squires Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1113"/>
+  </node>
+  <node id="726771676" lat="37.2141311" lon="-80.4443105">
+    <tag k="bburg:bt_stopid" v="27254eb1-9438-4d53-9e90-33fc630f9e6a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Foxridge Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1210"/>
+  </node>
+  <node id="733301632" lat="37.2423505" lon="-80.4222768">
+    <tag k="bburg:bt_stopid" v="dbbce490-76cf-4ce2-98a5-a95bb616bf73"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/Broce Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1328"/>
+  </node>
+  <node id="943190647" lat="37.2392209" lon="-80.3982039">
+    <tag k="bburg:bt_stopid" v="44002d9f-0a39-4539-88a8-dc9a4fd438ef"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ascot/Hampton"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1511"/>
+  </node>
+  <node id="1417482588" lat="37.2052800" lon="-80.4085100">
+    <tag k="bburg:bt_stopid" v="383b073b-447c-44f8-9780-406dec6aebeb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Airport"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1703"/>
+  </node>
+  <node id="1417482589" lat="37.2311900" lon="-80.4164200">
+    <tag k="bburg:bt_stopid" v="ad1c8dc1-656e-456a-a95b-2b93dde809d6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Alumni Mall Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1111"/>
+  </node>
+  <node id="1417482590" lat="37.2313400" lon="-80.4165600">
+    <tag k="bburg:bt_stopid" v="772f7664-883c-43a9-8133-a4a426a2742e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Alumni Mall Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1112"/>
+  </node>
+  <node id="1417482591" lat="37.1688000" lon="-80.4196000">
+    <tag k="bburg:bt_stopid" v="c6617753-8302-48ef-ab16-2f596243e7d2"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Arbor/Market"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2206"/>
+  </node>
+  <node id="1417482594" lat="37.2414900" lon="-80.3992200">
+    <tag k="bburg:bt_stopid" v="6187778d-a2ea-4330-b5b4-eb8523c29b18"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ascot/Harding Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1510"/>
+  </node>
+  <node id="1417482595" lat="37.2414346" lon="-80.3989724">
+    <tag k="bburg:bt_stopid" v="f16d5405-a561-481f-bf50-8f97c03647a1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ascot/Harding Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1512"/>
+  </node>
+  <node id="1417482596" lat="37.2211600" lon="-80.4270900">
+    <tag k="bburg:bt_stopid" v="737e7ee7-ba80-427b-92c7-450769495ca0"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bioinfomatics Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1131"/>
+  </node>
+  <node id="1417482597" lat="37.2276100" lon="-80.4121000">
+    <tag k="bburg:bt_stopid" v="c3becf1b-c7e0-468b-a8f8-c83029b2f1bc"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Blacksburg Municipal Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1601"/>
+  </node>
+  <node id="1417482598" lat="37.2158100" lon="-80.4007800">
+    <tag k="bburg:bt_stopid" v="c6f78a5d-bc7f-4509-804a-54c730645b15"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Blacksburg Square"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1620"/>
+  </node>
+  <node id="1417482599" lat="37.2284923" lon="-80.4228434">
+    <tag k="bburg:bt_stopid" v="25ad522a-020d-4317-b32f-a9d6b71d6150"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Burruss Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1101"/>
+  </node>
+  <node id="1417482600" lat="37.2321243" lon="-80.4228765">
+    <tag k="bburg:bt_stopid" v="a660a7d2-fe0b-43fb-93b4-d75e43a9e7c7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="CTAS Institute Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1133"/>
+  </node>
+  <node id="1417482601" lat="37.2231318" lon="-80.4194820">
+    <tag k="bburg:bt_stopid" v="f5c82029-7bff-49f9-911f-35625db89ff6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Cassell Coliseum"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1124"/>
+  </node>
+  <node id="1417482602" lat="37.2221100" lon="-80.4197700">
+    <tag k="bburg:bt_stopid" v="3cfd8e06-957b-446f-b1fe-f0054366667f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Coliseum Parking Lot Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1129"/>
+  </node>
+  <node id="1417482603" lat="37.1653000" lon="-80.4179600">
+    <tag k="bburg:bt_stopid" v="ebc3c90e-717d-4cfc-915f-a935b6c199ca"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="DMV on Arbor"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2204"/>
+  </node>
+  <node id="1417482605" lat="37.2280300" lon="-80.4196900">
+    <tag k="bburg:bt_stopid" v="dcbc8d3c-1960-417c-aca0-e64c2551a94d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Eggleston Hall/Kent St"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1109"/>
+  </node>
+  <node id="1417482606" lat="37.2086600" lon="-80.3967200">
+    <tag k="bburg:bt_stopid" v="8aebf47a-80ad-4e10-acf1-ff6d23bc2f87"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Fairfax/Ellett Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1609"/>
+  </node>
+  <node id="1417482607" lat="37.2086900" lon="-80.3967400">
+    <tag k="bburg:bt_stopid" v="5bcc56fe-7974-493e-9dcd-6ac545a6fa7e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Fairfax/Ellett Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1634"/>
+  </node>
+  <node id="1417482608" lat="37.2090000" lon="-80.3960600">
+    <tag k="bburg:bt_stopid" v="fd581e6e-31bf-4809-98d8-64f770c27dc1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Fairfax/New Kent Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1610"/>
+  </node>
+  <node id="1417482610" lat="37.2204300" lon="-80.4257400">
+    <tag k="bburg:bt_stopid" v="6b7fe57f-c1d7-4407-b3ef-70fa78632059"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Food Science Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1122"/>
+  </node>
+  <node id="1417482611" lat="37.2156000" lon="-80.4008700">
+    <tag k="bburg:bt_stopid" v="8bf3ccb4-ee75-482a-aaf5-f72465aae608"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gables Shopping Center"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1607"/>
+  </node>
+  <node id="1417482623" lat="37.2365409" lon="-80.4268219">
+    <tag k="bburg:bt_stopid" v="7d5ea813-5f1a-413c-964b-ab9fa0f2f482"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gilbert Linkous Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1332"/>
+  </node>
+  <node id="1417482632" lat="37.2429000" lon="-80.4144700">
+    <tag k="bburg:bt_stopid" v="d52fc66f-73dd-4bd2-a93d-fc3c1083a9bb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Giles/Heights Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1405"/>
+  </node>
+  <node id="1417482637" lat="37.2409500" lon="-80.4162400">
+    <tag k="bburg:bt_stopid" v="022d4849-3590-4979-be2b-c9a0843c8236"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Giles/Northview Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1404"/>
+  </node>
+  <node id="1417482642" lat="37.2449700" lon="-80.4122300">
+    <tag k="bburg:bt_stopid" v="fab6dec1-0b31-4924-808a-83a82c5e7a59"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Giles/Patrick Henry Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1406"/>
+  </node>
+  <node id="1417482648" lat="37.2560800" lon="-80.4114700">
+    <tag k="bburg:bt_stopid" v="298bbbca-5ebb-49b4-9155-b3af830bf1f4"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Givens/Main Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1412"/>
+  </node>
+  <node id="1417482655" lat="37.2127100" lon="-80.3935900">
+    <tag k="bburg:bt_stopid" v="0cb66970-0a9c-45a0-bb3a-871b001572e7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Grissom/Nellies Cave Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1613"/>
+  </node>
+  <node id="1417482659" lat="37.2124200" lon="-80.3934200">
+    <tag k="bburg:bt_stopid" v="f190a328-e791-4fc8-bc58-839440bd82e1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Grissom/Nellies Cave Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1631"/>
+  </node>
+  <node id="1417482666" lat="37.2385700" lon="-80.4042700">
+    <tag k="bburg:bt_stopid" v="705b0319-763b-443b-aaa7-2246d3a52e68"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Apperson Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1507"/>
+  </node>
+  <node id="1417482671" lat="37.2384800" lon="-80.4044600">
+    <tag k="bburg:bt_stopid" v="2fe16bb3-f6bf-4f14-9bc2-4666af088a66"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Apperson Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1515"/>
+  </node>
+  <node id="1417482676" lat="37.2366300" lon="-80.4075800">
+    <tag k="bburg:bt_stopid" v="14201e09-401f-4dc5-a385-c0e3e702fbe3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Cork Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1505"/>
+  </node>
+  <node id="1417482679" lat="37.2358000" lon="-80.4083000">
+    <tag k="bburg:bt_stopid" v="84a3b8c2-db25-41ec-a6bd-c879a4be4c91"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Cork Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1517"/>
+  </node>
+  <node id="1417482688" lat="37.2354900" lon="-80.4085800">
+    <tag k="bburg:bt_stopid" v="fc010cf1-277b-48cb-84b6-7e061d67cd76"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Owens Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1504"/>
+  </node>
+  <node id="1417482689" lat="37.2377700" lon="-80.4058800">
+    <tag k="bburg:bt_stopid" v="6ece034e-abfa-4af4-98bc-c7480a6d7fc7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Patrick Henry Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1506"/>
+  </node>
+  <node id="1417482699" lat="37.2377200" lon="-80.4059900">
+    <tag k="bburg:bt_stopid" v="019d07ea-b191-44f9-95d4-d884c59944b5"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Patrick Henry Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1516"/>
+  </node>
+  <node id="1417482701" lat="37.2404400" lon="-80.4005300">
+    <tag k="bburg:bt_stopid" v="02c4ab54-77a3-41c6-aad2-48bc47fc4ea4"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Roanoke Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1509"/>
+  </node>
+  <node id="1417482704" lat="37.2404100" lon="-80.4005900">
+    <tag k="bburg:bt_stopid" v="38ba3d3c-6413-4466-9c83-2e2e63f42792"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Rucker Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1513"/>
+  </node>
+  <node id="1417482708" lat="37.2391900" lon="-80.4030500">
+    <tag k="bburg:bt_stopid" v="5e5563c2-d1db-4a1f-9c82-86c88f4751a8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Sutton Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1514"/>
+  </node>
+  <node id="1417482715" lat="37.2392200" lon="-80.4029800">
+    <tag k="bburg:bt_stopid" v="3f8820a7-f7ad-40ba-9331-f47ad0bd4c4f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harding/Vista Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1508"/>
+  </node>
+  <node id="1417482716" lat="37.2223500" lon="-80.4234800">
+    <tag k="bburg:bt_stopid" v="371386c2-ce1a-4827-a958-a1036a0bfd92"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harper Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1126"/>
+  </node>
+  <node id="1417482725" lat="37.2220595" lon="-80.4489022">
+    <tag k="bburg:bt_stopid" v="228dd23e-d9a2-45d8-8b18-1754e5deb20e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Heather/Huntington Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1214"/>
+  </node>
+  <node id="1417482729" lat="37.2196416" lon="-80.4480768">
+    <tag k="bburg:bt_stopid" v="ab7bb95e-e228-42b0-a057-ccf8e49a8131"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Heather/Plymouth Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1213"/>
+  </node>
+  <node id="1417482734" lat="37.2174685" lon="-80.4482764">
+    <tag k="bburg:bt_stopid" v="5b0afeb6-024a-4fa6-81b9-c007aa5b96a8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Heather/Plymouth Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1220"/>
+  </node>
+  <node id="1417482735" lat="37.2177302" lon="-80.4482273">
+    <tag k="bburg:bt_stopid" v="2f56a778-2c74-431f-b79d-932be5dde781"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Heather/Tall Oaks Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1212"/>
+  </node>
+  <node id="1417482736" lat="37.2200094" lon="-80.4480886">
+    <tag k="bburg:bt_stopid" v="6d3651a9-bcfe-443e-9900-f80e9bdeef93"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Heather/Tall Oaks Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1219"/>
+  </node>
+  <node id="1417482737" lat="37.2167658" lon="-80.4533434">
+    <tag k="bburg:bt_stopid" v="20fa61c3-1851-4b2a-988d-9169458d6887"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hethwood Square on Hethwood"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1204"/>
+  </node>
+  <node id="1417482738" lat="37.2259800" lon="-80.4228700">
+    <tag k="bburg:bt_stopid" v="95999c9a-0beb-43ae-9469-afcd932c9fd3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hutcheson Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1107"/>
+  </node>
+  <node id="1417482739" lat="37.2206800" lon="-80.4267300">
+    <tag k="bburg:bt_stopid" v="f0aa8b8e-f1d1-4d4a-a79f-a7c33dd3daf3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="I Lot/Cage Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1121"/>
+  </node>
+  <node id="1417482740" lat="37.1936000" lon="-80.4002800">
+    <tag k="bburg:bt_stopid" v="71e4aab0-53e9-4d6d-8909-b4db0d012d4b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Industrial Park/Transportation Res Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1636"/>
+  </node>
+  <node id="1417482741" lat="37.2001000" lon="-80.4079000">
+    <tag k="bburg:bt_stopid" v="b60b365a-36c6-4312-b11c-76588a1b4245"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kraft/Knowledgeworks 1 Building Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1714"/>
+  </node>
+  <node id="1417482742" lat="37.2018600" lon="-80.4098100">
+    <tag k="bburg:bt_stopid" v="1228cb73-e92d-4a81-9376-e48a791d8e84"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kraft/Moss Building Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1715"/>
+  </node>
+  <node id="1417482743" lat="37.1988800" lon="-80.4054300">
+    <tag k="bburg:bt_stopid" v="8d94d6c6-03a1-48bd-9347-3a3eced74f4d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kraft/Research Ctr Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1710"/>
+  </node>
+  <node id="1417482744" lat="37.2042900" lon="-80.4100100">
+    <tag k="bburg:bt_stopid" v="d2490ca4-967d-459c-849a-215199e4cf09"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kraft/Tech Center Dr Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1706"/>
+  </node>
+  <node id="1417482745" lat="37.2185200" lon="-80.4192600">
+    <tag k="bburg:bt_stopid" v="de69bb01-9114-4f19-a284-6e55fb4e3f88"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lane Stadium S Endzone Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1128"/>
+  </node>
+  <node id="1417482746" lat="37.2185300" lon="-80.4192900">
+    <tag k="bburg:bt_stopid" v="52cc5fc5-2ebd-4754-bb76-fae6bfb4c69f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lane Stadium S Endzone Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1127"/>
+  </node>
+  <node id="1417482747" lat="37.1641000" lon="-80.4198500">
+    <tag k="bburg:bt_stopid" v="4a646ff8-0243-4c14-8ebb-b3640870bc65"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Laurel/Peppers Ferry"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2203"/>
+  </node>
+  <node id="1417482748" lat="37.1623600" lon="-80.4209300">
+    <tag k="bburg:bt_stopid" v="bcb8482b-8d93-44c4-a963-31351cfc97f3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Laurel/Sycamore"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2202"/>
+  </node>
+  <node id="1417482749" lat="37.2204800" lon="-80.4254300">
+    <tag k="bburg:bt_stopid" v="f0e36425-05bf-4eef-bc48-77196097e2c1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Life Sciences 1 Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1132"/>
+  </node>
+  <node id="1417482754" lat="37.2224499" lon="-80.4235319">
+    <tag k="bburg:bt_stopid" v="d954fddf-2221-4e64-b4ad-7d816bc12dac"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Litton Reaves Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1116"/>
+  </node>
+  <node id="1417482755" lat="37.2393000" lon="-80.4167100">
+    <tag k="bburg:bt_stopid" v="53afe354-bcf9-4574-9567-820cf5ba5a46"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lucas/Giles Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1403"/>
+  </node>
+  <node id="1417482761" lat="37.2396600" lon="-80.4184100">
+    <tag k="bburg:bt_stopid" v="15fb5cff-f73b-4d5d-9872-b2da7224bc5e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lucas/Main Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1402"/>
+  </node>
+  <node id="1417482764" lat="37.2299100" lon="-80.4145400">
+    <tag k="bburg:bt_stopid" v="156c05c9-ab13-4495-a4d4-0af55168c032"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main St Post Office"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1628"/>
+  </node>
+  <node id="1417482774" lat="37.2221800" lon="-80.4061700">
+    <tag k="bburg:bt_stopid" v="42c978d1-6324-4246-9d53-4dd1397a01f7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Airport Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1605"/>
+  </node>
+  <node id="1417482783" lat="37.2141900" lon="-80.4003300">
+    <tag k="bburg:bt_stopid" v="17c5fef1-9d30-4940-bc37-9dabc6b67335"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Ardmore Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1619"/>
+  </node>
+  <node id="1417482802" lat="37.2267600" lon="-80.4111800">
+    <tag k="bburg:bt_stopid" v="a9ad2032-4206-442a-942b-98b868a6d32a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Clay Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1626"/>
+  </node>
+  <node id="1417482807" lat="37.2194100" lon="-80.4028700">
+    <tag k="bburg:bt_stopid" v="34d3cf89-ce9d-4871-961f-c172a1c7773c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Cohee Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1621"/>
+  </node>
+  <node id="1417482825" lat="37.2343000" lon="-80.4195300">
+    <tag k="bburg:bt_stopid" v="c8e0f4b8-c1d6-4229-95b8-1eb6f9ddf4ab"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Collegiate Court Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1422"/>
+  </node>
+  <node id="1417482826" lat="37.2019900" lon="-80.3994800">
+    <tag k="bburg:bt_stopid" v="06286679-0b1a-44eb-a3b9-6da725d37be1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Dowdy Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1639"/>
+  </node>
+  <node id="1417482847" lat="37.2027500" lon="-80.3993900">
+    <tag k="bburg:bt_stopid" v="7dc9ed8a-4dc6-43f2-8571-fc36d1c4f0ec"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Dowdy Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1643"/>
+  </node>
+  <node id="1417482854" lat="37.2251000" lon="-80.4093700">
+    <tag k="bburg:bt_stopid" v="3b814740-777e-4ddf-82da-970ba10bdc05"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Eakin Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1625"/>
+  </node>
+  <node id="1417482872" lat="37.2247800" lon="-80.4090200">
+    <tag k="bburg:bt_stopid" v="db8dbc44-8a26-4580-87e1-d0191b07e7d6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Eakin Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1603"/>
+  </node>
+  <node id="1417482882" lat="37.2228800" lon="-80.4069400">
+    <tag k="bburg:bt_stopid" v="f4b1c05d-2090-443e-853f-67c8e700e2ec"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Edgewood Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1604"/>
+  </node>
+  <node id="1417482897" lat="37.2256500" lon="-80.4099700">
+    <tag k="bburg:bt_stopid" v="7377e1d6-257e-44fa-9f46-b5512e6c5da8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Eheart Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1602"/>
+  </node>
+  <node id="1417482911" lat="37.2195700" lon="-80.4032400">
+    <tag k="bburg:bt_stopid" v="c39da196-c111-4ce9-9403-cb6759b7c75e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Faystone Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1606"/>
+  </node>
+  <node id="1417482930" lat="37.2509900" lon="-80.4116000">
+    <tag k="bburg:bt_stopid" v="a6646fae-59d8-40c0-a433-3cd250b494e8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Giles Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1410"/>
+  </node>
+  <node id="1417482941" lat="37.2223500" lon="-80.4063600">
+    <tag k="bburg:bt_stopid" v="6eea69df-f27d-43bf-9663-446546fa36b1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Graves Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1623"/>
+  </node>
+  <node id="1417482955" lat="37.2239200" lon="-80.4080800">
+    <tag k="bburg:bt_stopid" v="d347e906-1079-49bb-a416-9192c35efd3b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Hemlock Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1624"/>
+  </node>
+  <node id="1417482958" lat="37.2237700" lon="-80.4079100">
+    <tag k="bburg:bt_stopid" v="de1dcd82-3588-4da2-813e-7c018eb0c2e4"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Hemlock Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1635"/>
+  </node>
+  <node id="1417482968" lat="37.2133300" lon="-80.4000700">
+    <tag k="bburg:bt_stopid" v="4f7b19a3-f645-4179-8cff-1778caadd427"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Landsdowne Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1618"/>
+  </node>
+  <node id="1417482978" lat="37.2125000" lon="-80.3999900">
+    <tag k="bburg:bt_stopid" v="5f661210-4585-45e3-b5e3-319ec1863d69"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Landsdowne Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1608"/>
+  </node>
+  <node id="1417482982" lat="37.2287800" lon="-80.4133600">
+    <tag k="bburg:bt_stopid" v="a065cb09-3043-41c6-b6f0-4b00f6922c1b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Lee Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1627"/>
+  </node>
+  <node id="1417482990" lat="37.2403018" lon="-80.4191933">
+    <tag k="bburg:bt_stopid" v="9004c0d7-0ecc-4254-aaec-80f70bb0d333"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Lucas Northbound North"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1424"/>
+  </node>
+  <node id="1417482996" lat="37.2391210" lon="-80.4199522">
+    <tag k="bburg:bt_stopid" v="a3cdec48-d367-43a9-a81c-955e14b85b01"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Lucas Northbound South"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1401"/>
+  </node>
+  <node id="1417483008" lat="37.2401602" lon="-80.4192908">
+    <tag k="bburg:bt_stopid" v="16722de8-c8d3-4ac6-97cc-fe1f51dc86fa"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Lucas Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1419"/>
+  </node>
+  <node id="1417483015" lat="37.2380632" lon="-80.4205153">
+    <tag k="bburg:bt_stopid" v="dff0255a-843c-4303-bee3-df022f2eafc7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Montgomery Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1400"/>
+  </node>
+  <node id="1417483022" lat="37.2389097" lon="-80.4200692">
+    <tag k="bburg:bt_stopid" v="a84edf58-4413-45fb-beb8-18141f5c9527"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Montgomery Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1420"/>
+  </node>
+  <node id="1417483041" lat="37.2419200" lon="-80.4180400">
+    <tag k="bburg:bt_stopid" v="8123e274-5b6a-4471-b348-43d2385a4a78"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Northview Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1425"/>
+  </node>
+  <node id="1417483046" lat="37.2415300" lon="-80.4183100">
+    <tag k="bburg:bt_stopid" v="0d63ed27-4271-4b1c-b4b8-e4a30208b61a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Northview Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1418"/>
+  </node>
+  <node id="1417483069" lat="37.2459816" lon="-80.4151131">
+    <tag k="bburg:bt_stopid" v="8973ac19-9b68-495c-8913-244baef292f0"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Patrick Henry Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1427"/>
+  </node>
+  <node id="1417483074" lat="37.2459799" lon="-80.4151143">
+    <tag k="bburg:bt_stopid" v="9c2c89b3-97d8-493a-bbc1-43f676686eb3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Patrick Henry Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1416"/>
+  </node>
+  <node id="1417483084" lat="37.2531304" lon="-80.4109230">
+    <tag k="bburg:bt_stopid" v="f0d71b5a-e8c8-468e-8f63-451ef4dafbcf"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Red Maple Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1411"/>
+  </node>
+  <node id="1417483094" lat="37.2297000" lon="-80.4143200">
+    <tag k="bburg:bt_stopid" v="94180d9f-ec14-47bd-baeb-8d889bfda484"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Roanoke Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1600"/>
+  </node>
+  <node id="1417483107" lat="37.2069700" lon="-80.3988300">
+    <tag k="bburg:bt_stopid" v="b2061d7a-8011-43e8-9ed9-6d1a8cade4fa"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/S Hill Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1640"/>
+  </node>
+  <node id="1417483114" lat="37.2072300" lon="-80.3990000">
+    <tag k="bburg:bt_stopid" v="0ab8c3fc-1af1-4459-95ef-61edbb6d3bd8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/S Hill Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1642"/>
+  </node>
+  <node id="1417483130" lat="37.2001700" lon="-80.4003400">
+    <tag k="bburg:bt_stopid" v="15ada27c-0e66-4f0c-b84f-49b36871a000"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/South Park Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1644"/>
+  </node>
+  <node id="1417483136" lat="37.2209400" lon="-80.4047700">
+    <tag k="bburg:bt_stopid" v="caa2c0db-b107-4421-86c0-a99456e7677d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Sunset Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1622"/>
+  </node>
+  <node id="1417483142" lat="37.2339400" lon="-80.4190400">
+    <tag k="bburg:bt_stopid" v="55ee9ea1-e6ad-43e6-9977-2c51a9616f37"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Turner"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1431"/>
+  </node>
+  <node id="1417483148" lat="37.2332300" lon="-80.4181300">
+    <tag k="bburg:bt_stopid" v="eaa65b1b-e691-4f6f-8ed5-6e8e7cfa2887"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Main/Turner Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1423"/>
+  </node>
+  <node id="1417483163" lat="37.2124000" lon="-80.3962900">
+    <tag k="bburg:bt_stopid" v="cbf5b81d-bfe5-42fd-a2e7-ed531c838a1c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Emerald Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1630"/>
+  </node>
+  <node id="1417483166" lat="37.2124600" lon="-80.3960700">
+    <tag k="bburg:bt_stopid" v="a7f684d8-ed51-410d-b0b6-11dfd33da4ea"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Emerald Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1615"/>
+  </node>
+  <node id="1417483177" lat="37.2118600" lon="-80.3981700">
+    <tag k="bburg:bt_stopid" v="96e3c350-e0e1-4c7b-9463-94b158a9eed6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Grayland Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1629"/>
+  </node>
+  <node id="1417483182" lat="37.2118900" lon="-80.3980500">
+    <tag k="bburg:bt_stopid" v="61d6a5e5-e4f3-4d06-b0bd-d17313c1f4bb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Grayland Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1616"/>
+  </node>
+  <node id="1417483199" lat="37.2130400" lon="-80.3940900">
+    <tag k="bburg:bt_stopid" v="84e4e5dc-e0a8-4d4a-8017-4b16cbe16e8c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Grissom Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1614"/>
+  </node>
+  <node id="1417483205" lat="37.2114600" lon="-80.3996200">
+    <tag k="bburg:bt_stopid" v="a715e354-13cf-409d-b83d-a568929a1121"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marlington/Main Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1617"/>
+  </node>
+  <node id="1417483220" lat="37.2310400" lon="-80.4216000">
+    <tag k="bburg:bt_stopid" v="c34e0e30-1b49-46d3-a25f-99be0049ae34"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="McBryde Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1106"/>
+  </node>
+  <node id="1417483238" lat="37.1872500" lon="-80.4098300">
+    <tag k="bburg:bt_stopid" v="33101755-9fa5-4edc-b593-4c8b91f40785"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Montgomery Regional Hospital"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1803"/>
+  </node>
+  <node id="1417483246" lat="37.1642000" lon="-80.4291000">
+    <tag k="bburg:bt_stopid" v="da296832-e72b-4489-acc2-1a12075a27eb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="NRV Theatre"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1801"/>
+  </node>
+  <node id="1417483267" lat="37.2099600" lon="-80.3956500">
+    <tag k="bburg:bt_stopid" v="95a81129-838d-4eeb-b313-7adfa7cb009c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New Kent/Loudon Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1611"/>
+  </node>
+  <node id="1417483274" lat="37.2097400" lon="-80.3957000">
+    <tag k="bburg:bt_stopid" v="c34012ef-6c62-4e21-b28f-22d999bf8b3d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New Kent/Loudon Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1633"/>
+  </node>
+  <node id="1417483286" lat="37.2114700" lon="-80.3936800">
+    <tag k="bburg:bt_stopid" v="25572a67-fc89-461e-b026-e08db88b8eb3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New Kent/Sussex Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1612"/>
+  </node>
+  <node id="1417483292" lat="37.2114400" lon="-80.3937500">
+    <tag k="bburg:bt_stopid" v="8c43199c-f00a-440d-9c80-e8f5afe1e4bf"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New Kent/Sussex Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1632"/>
+  </node>
+  <node id="1417483314" lat="37.1661000" lon="-80.4285300">
+    <tag k="bburg:bt_stopid" v="71392c5c-8916-468d-8271-ac2d28d69b2b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New River Valley Mall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1800"/>
+  </node>
+  <node id="1417483334" lat="37.2264300" lon="-80.4375400">
+    <tag k="bburg:bt_stopid" v="47dce955-e17a-4bc5-8755-6eb5e101f624"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Oak Lane North"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1118"/>
+  </node>
+  <node id="1417483355" lat="37.2251400" lon="-80.4362000">
+    <tag k="bburg:bt_stopid" v="3b34f9bd-4dc2-47ef-9142-2f83aac0ac90"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Oak Lane Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1130"/>
+  </node>
+  <node id="1417483371" lat="37.2248700" lon="-80.4363600">
+    <tag k="bburg:bt_stopid" v="ce6fa6c0-8907-494e-becf-8952db9fb043"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Oak Lane South"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1119"/>
+  </node>
+  <node id="1417483378" lat="37.2345000" lon="-80.4355300">
+    <tag k="bburg:bt_stopid" v="5a346824-737d-405b-aaa4-7163659b686b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Old Glade/Glade Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1335"/>
+  </node>
+  <node id="1417483403" lat="37.2315400" lon="-80.4221300">
+    <tag k="bburg:bt_stopid" v="433538e4-4486-42d0-98bd-25761920cf20"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Old Security Building"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1104"/>
+  </node>
+  <node id="1417483408" lat="37.2240900" lon="-80.4308300">
+    <tag k="bburg:bt_stopid" v="2677ff48-2a61-4d37-ac2b-d822baa822b0"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Overflow Lot Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1120"/>
+  </node>
+  <node id="1417483430" lat="37.2241900" lon="-80.4307500">
+    <tag k="bburg:bt_stopid" v="7e15412c-b192-4095-9055-7592e679aaf8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Overflow Lot Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1117"/>
+  </node>
+  <node id="1417483438" lat="37.2453200" lon="-80.4128700">
+    <tag k="bburg:bt_stopid" v="f708517e-8a02-4435-b654-58c60949c454"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Giles Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1407"/>
+  </node>
+  <node id="1417483451" lat="37.2460700" lon="-80.4143500">
+    <tag k="bburg:bt_stopid" v="52369657-9826-4166-8f10-c041fcad4ebb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Main Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1408"/>
+  </node>
+  <node id="1417483458" lat="37.2457900" lon="-80.4228400">
+    <tag k="bburg:bt_stopid" v="3be6f418-af13-4c20-a212-707e3c681fb0"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Progress Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1325"/>
+  </node>
+  <node id="1417483480" lat="37.2469236" lon="-80.4168994">
+    <tag k="bburg:bt_stopid" v="60db043b-c8e9-4c8e-a030-57436d3aa91c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Seneca Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1430"/>
+  </node>
+  <node id="1417483485" lat="37.2440500" lon="-80.4275900">
+    <tag k="bburg:bt_stopid" v="afc1be23-f67d-4ddd-80c7-4a627257af14"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Toms Creek Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1323"/>
+  </node>
+  <node id="1417483497" lat="37.2438000" lon="-80.4280200">
+    <tag k="bburg:bt_stopid" v="62d46bcd-022d-417a-bbc0-27324af90667"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Patrick Henry/Toms Creek Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1309"/>
+  </node>
+  <node id="1417483501" lat="37.2490352" lon="-80.4169294">
+    <tag k="bburg:bt_stopid" v="5a6b3b02-6c56-4f46-ae26-78a71c97e6b4"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pheasant Run"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1414"/>
+  </node>
+  <node id="1417483506" lat="37.1675900" lon="-80.4175000">
+    <tag k="bburg:bt_stopid" v="a4cefc30-0cda-4a2a-ad0e-ce535e86927a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Post Office on Arbor"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2205"/>
+  </node>
+  <node id="1417483510" lat="37.2036900" lon="-80.4124500">
+    <tag k="bburg:bt_stopid" v="ca535ac4-2852-4435-a300-18bde4a8ca53"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt Dr/Andrews Building Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1705"/>
+  </node>
+  <node id="1417483521" lat="37.2040100" lon="-80.4124800">
+    <tag k="bburg:bt_stopid" v="7d1026f9-4174-4744-a2f3-f245bf7e2531"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt Dr/Andrews Building Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1709"/>
+  </node>
+  <node id="1417483524" lat="37.2016900" lon="-80.4117100">
+    <tag k="bburg:bt_stopid" v="d9fc8b5e-a051-4bb3-8ac9-9659daa07ae7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt Dr/Garvin Building Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1708"/>
+  </node>
+  <node id="1417483529" lat="37.2016900" lon="-80.4117300">
+    <tag k="bburg:bt_stopid" v="3457e416-5ecd-4947-819b-a79f12c7a66c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt Dr/Garvin Building Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1701"/>
+  </node>
+  <node id="1417483535" lat="37.2010900" lon="-80.4107400">
+    <tag k="bburg:bt_stopid" v="aef950e8-5538-4fe8-8b0c-71ffd8f25044"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt/Kraft Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1702"/>
+  </node>
+  <node id="1417483548" lat="37.2011400" lon="-80.4106500">
+    <tag k="bburg:bt_stopid" v="c7d4397c-94af-415e-8e5f-e0a0a7c1f299"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pratt/Kraft Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1707"/>
+  </node>
+  <node id="1417483551" lat="37.2249139" lon="-80.4463542">
+    <tag k="bburg:bt_stopid" v="9a3c9ba8-4a52-4017-a6ee-4a86195a6662"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Huntington Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1215"/>
+  </node>
+  <node id="1417483559" lat="37.2245600" lon="-80.4473300">
+    <tag k="bburg:bt_stopid" v="35cc1a79-dc5c-4a8d-b482-e4e9b319ec5e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Huntington Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1203"/>
+  </node>
+  <node id="1417483561" lat="37.2314263" lon="-80.4344134">
+    <tag k="bburg:bt_stopid" v="3c179876-5ff2-4139-b583-c398b15281d3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Old Glade Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1218"/>
+  </node>
+  <node id="1417483571" lat="37.2314892" lon="-80.4345897">
+    <tag k="bburg:bt_stopid" v="3cff88f3-a8b5-4a4f-87e8-f949873dc309"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Old Glade Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1200"/>
+  </node>
+  <node id="1417483574" lat="37.2253183" lon="-80.4451348">
+    <tag k="bburg:bt_stopid" v="4273bdab-f1ec-4626-a3d2-13c739a58f6d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Plantation Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1216"/>
+  </node>
+  <node id="1417483579" lat="37.2254076" lon="-80.4452592">
+    <tag k="bburg:bt_stopid" v="c17f9efc-a280-4592-9575-fa83b7f88c73"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Plantation Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1202"/>
+  </node>
+  <node id="1417483584" lat="37.2338200" lon="-80.4228100">
+    <tag k="bburg:bt_stopid" v="bb19d3b7-05b6-40ca-8516-3be9648dc1e8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prices Fork/Turner Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1334"/>
+  </node>
+  <node id="1417483591" lat="37.1971300" lon="-80.4002800">
+    <tag k="bburg:bt_stopid" v="e2eb1289-4714-41b1-aa25-6cb70f74e9c4"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Professional Park Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1638"/>
+  </node>
+  <node id="1417483600" lat="37.1967900" lon="-80.4002800">
+    <tag k="bburg:bt_stopid" v="97858830-9166-4841-8b89-c6fbc16b6b43"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Professional Park Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1645"/>
+  </node>
+  <node id="1417483608" lat="37.2423710" lon="-80.4222741">
+    <tag k="bburg:bt_stopid" v="c4ac0d9b-7124-4cdb-9030-8c5e0abf3b33"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/Broce Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1305"/>
+  </node>
+  <node id="1417483628" lat="37.2448706" lon="-80.4214424">
+    <tag k="bburg:bt_stopid" v="5b827170-d223-4f53-b0a0-e11a3d6a32c2"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/Hunt Club Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1326"/>
+  </node>
+  <node id="1417483629" lat="37.2452215" lon="-80.4215335">
+    <tag k="bburg:bt_stopid" v="50d039d0-d0d8-4ece-bf90-cba2ab0e8780"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/Patrick Henry Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1307"/>
+  </node>
+  <node id="1417483636" lat="37.2442303" lon="-80.4214922">
+    <tag k="bburg:bt_stopid" v="8b72ed66-82a7-46f5-84b4-351f8ea80411"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/University Terr Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1306"/>
+  </node>
+  <node id="1417483637" lat="37.2435000" lon="-80.4218700">
+    <tag k="bburg:bt_stopid" v="2f83e9ca-dd59-4c92-bcaa-c681060c4468"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/University Terr Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1327"/>
+  </node>
+  <node id="1417483638" lat="37.2390846" lon="-80.4222244">
+    <tag k="bburg:bt_stopid" v="cf7fd316-8a79-4371-a286-7d82841f632d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Progress/Watson Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1339"/>
+  </node>
+  <node id="1417483642" lat="37.1942200" lon="-80.3975800">
+    <tag k="bburg:bt_stopid" v="ae97c90e-1b2b-404a-8190-3c4f0117ec40"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Prosperity/Industrial Park Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1637"/>
+  </node>
+  <node id="1417483652" lat="37.2157400" lon="-80.4186800">
+    <tag k="bburg:bt_stopid" v="438b371c-d2cd-44d3-83fd-6d30a4792d0a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rec Fields Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1704"/>
+  </node>
+  <node id="1417483655" lat="37.2148200" lon="-80.4184100">
+    <tag k="bburg:bt_stopid" v="3e1430e5-b968-45a3-9665-17444050e5f3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rec Fields Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1700"/>
+  </node>
+  <node id="1417483659" lat="37.1999800" lon="-80.4053200">
+    <tag k="bburg:bt_stopid" v="00b29d77-ad9a-4fe2-933d-f2af6d6ed821"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Research Ctr/N Knollwood Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1716"/>
+  </node>
+  <node id="1417483663" lat="37.2026400" lon="-80.4058400">
+    <tag k="bburg:bt_stopid" v="792accd7-8d66-4b60-83e2-14d47d81817a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Research Ctr/N Knollwood Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1713"/>
+  </node>
+  <node id="1417483671" lat="37.2301600" lon="-80.4127300">
+    <tag k="bburg:bt_stopid" v="fdbbea13-bdf6-4cbe-9e2e-57b4f05f2c29"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Church Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1500"/>
+  </node>
+  <node id="1417483672" lat="37.2303900" lon="-80.4123800">
+    <tag k="bburg:bt_stopid" v="b40cfadf-237f-4550-a5c6-ae3e1753f48f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Penn Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1521"/>
+  </node>
+  <node id="1417483677" lat="37.2318100" lon="-80.4102600">
+    <tag k="bburg:bt_stopid" v="2e9c2fec-501d-49d0-8bbf-f82cd8658596"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Rutledge Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1502"/>
+  </node>
+  <node id="1417483681" lat="37.2317700" lon="-80.4103200">
+    <tag k="bburg:bt_stopid" v="5e6eeeff-4841-464a-a077-1a28e53e79f6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Rutledge Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1519"/>
+  </node>
+  <node id="1417483687" lat="37.2312500" lon="-80.4111000">
+    <tag k="bburg:bt_stopid" v="41e08910-6bc4-4407-a7dd-274ff9787096"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Wharton Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1501"/>
+  </node>
+  <node id="1417483689" lat="37.2311400" lon="-80.4112600">
+    <tag k="bburg:bt_stopid" v="800c6248-1b7b-48bf-9d8b-44160b2fc361"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Wharton Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1520"/>
+  </node>
+  <node id="1417483693" lat="37.2326900" lon="-80.4089700">
+    <tag k="bburg:bt_stopid" v="26f4cc29-f18d-4c03-9a22-a2dd5b5c53cb"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Woolwine Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1503"/>
+  </node>
+  <node id="1417483694" lat="37.2325500" lon="-80.4091700">
+    <tag k="bburg:bt_stopid" v="c3d5f685-fed4-464b-b597-a73c56b9ced7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Roanoke/Woolwine Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1518"/>
+  </node>
+  <node id="1417483709" lat="37.2474198" lon="-80.4175636">
+    <tag k="bburg:bt_stopid" v="4392605a-b2e3-47b5-900c-3c4c626e9ea1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Seneca/Patrick Henry Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1415"/>
+  </node>
+  <node id="1417483714" lat="37.2423400" lon="-80.4329100">
+    <tag k="bburg:bt_stopid" v="9aca2abd-fdd6-4405-ba28-57ee9993e22d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shawnee on University City Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1320"/>
+  </node>
+  <node id="1417483724" lat="37.2414010" lon="-80.4349820">
+    <tag k="bburg:bt_stopid" v="223f7e17-9eec-412c-8fd6-54eb379aa27c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shawnee on University City Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1319"/>
+  </node>
+  <node id="1417483726" lat="37.2410300" lon="-80.4352301">
+    <tag k="bburg:bt_stopid" v="9da68092-d074-4ad9-8ddb-2f07112053ee"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shawnee on University City Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1312"/>
+  </node>
+  <node id="1417483736" lat="37.2422440" lon="-80.4333820">
+    <tag k="bburg:bt_stopid" v="3cf9ba99-92f3-401b-a35a-5c30e6902a06"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shawnee on University City Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1311"/>
+  </node>
+  <node id="1417483737" lat="37.1666800" lon="-80.4252100">
+    <tag k="bburg:bt_stopid" v="08e66b34-64bc-4fe7-8cd2-2f96a94eac1c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shoppers Way"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="2209"/>
+  </node>
+  <node id="1417483742" lat="37.2297966" lon="-80.4187133">
+    <tag k="bburg:bt_stopid" v="9cb820c8-3424-47c9-8727-5e098e227141"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Squires Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1110"/>
+  </node>
+  <node id="1417483753" lat="37.2325110" lon="-80.4240829">
+    <tag k="bburg:bt_stopid" v="f99dacf5-c8cb-4f4d-8053-822d35833eb9"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Stanger/Perry Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1105"/>
+  </node>
+  <node id="1417483758" lat="37.2131700" lon="-80.4441764">
+    <tag k="bburg:bt_stopid" v="516cd08e-74b9-49eb-b445-b35cffec623b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Stroubles Circle"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1209"/>
+  </node>
+  <node id="1417483763" lat="37.2159898" lon="-80.4453393">
+    <tag k="bburg:bt_stopid" v="8bcffa49-f8b9-4a09-bd13-ab1954372424"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Copper Croft Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1211"/>
+  </node>
+  <node id="1417483764" lat="37.2157607" lon="-80.4504611">
+    <tag k="bburg:bt_stopid" v="2c3d4ac0-846c-4923-994c-552ecf01ad9e"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Foxhunt Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1206"/>
+  </node>
+  <node id="1417483788" lat="37.2139919" lon="-80.4442856">
+    <tag k="bburg:bt_stopid" v="f57bb389-b47b-4833-816a-95a5dbdef6a1"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Foxtrail Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1208"/>
+  </node>
+  <node id="1417483796" lat="37.2171901" lon="-80.4486401">
+    <tag k="bburg:bt_stopid" v="7656d2ed-e7c9-49b2-aa27-121fe0979d51"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Heather Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1207"/>
+  </node>
+  <node id="1417483806" lat="37.2144707" lon="-80.4522102">
+    <tag k="bburg:bt_stopid" v="8d6c0594-813e-4a74-a649-f5cac546e2c8"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tall Oaks/Hethwood Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1205"/>
+  </node>
+  <node id="1417483819" lat="37.2250500" lon="-80.4167300">
+    <tag k="bburg:bt_stopid" v="2afaeed9-e345-455c-b184-2a74a4cd1b48"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tennis Courts"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1125"/>
+  </node>
+  <node id="1417483830" lat="37.2451100" lon="-80.4247300">
+    <tag k="bburg:bt_stopid" v="b2720f31-9595-4d09-a135-b5036e4fa8a3"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="The Village on Patrick Henry Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1324"/>
+  </node>
+  <node id="1417483840" lat="37.2449300" lon="-80.4252100">
+    <tag k="bburg:bt_stopid" v="c08da10c-dce9-4fee-8f8d-b057367ac3a6"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="The Village on Patrick Henry Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1308"/>
+  </node>
+  <node id="1417483843" lat="37.2420800" lon="-80.4276800">
+    <tag k="bburg:bt_stopid" v="4cb61199-9aea-4d0b-8ed0-a2fd1b12a46a"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Hunt Club Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1337"/>
+  </node>
+  <node id="1417483860" lat="37.2420300" lon="-80.4276500">
+    <tag k="bburg:bt_stopid" v="b9e5481a-8a84-44ab-a4ea-8a9837e67f8f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Hunt Club Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1338"/>
+  </node>
+  <node id="1417483861" lat="37.2402600" lon="-80.4271400">
+    <tag k="bburg:bt_stopid" v="636c652c-ad3a-4d9d-82b0-7f8b1e6f2591"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/McBryde Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1303"/>
+  </node>
+  <node id="1417483878" lat="37.2395400" lon="-80.4269500">
+    <tag k="bburg:bt_stopid" v="aad6f504-ffaa-4e37-80c6-f19a1abb95ad"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/McBryde Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1330"/>
+  </node>
+  <node id="1417483879" lat="37.2380293" lon="-80.4265966">
+    <tag k="bburg:bt_stopid" v="5b6a7291-4fbd-436d-809c-9c652312b886"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Watson Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1302"/>
+  </node>
+  <node id="1417483889" lat="37.2382406" lon="-80.4265855">
+    <tag k="bburg:bt_stopid" v="6b3af2b8-6146-4ac7-9acd-ae584d562d36"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Watson Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1331"/>
+  </node>
+  <node id="1417483896" lat="37.2348000" lon="-80.4258800">
+    <tag k="bburg:bt_stopid" v="6109353c-e963-45db-8d6c-3363d03e23a9"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Winston Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1300"/>
+  </node>
+  <node id="1417483901" lat="37.2343800" lon="-80.4256400">
+    <tag k="bburg:bt_stopid" v="e6a1bab5-6470-4c23-8b55-59b876d31a53"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Toms Creek/Winston Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1333"/>
+  </node>
+  <node id="1417483910" lat="37.2296649" lon="-80.4208397">
+    <tag k="bburg:bt_stopid" v="fdde53c2-def2-4e79-8ca0-9fbe89e8f930"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Torgerson Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1114"/>
+  </node>
+  <node id="1417483922" lat="37.2379200" lon="-80.4351700">
+    <tag k="bburg:bt_stopid" v="84182224-5ef2-4a3a-b8b1-090bffce46f5"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Broce Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1318"/>
+  </node>
+  <node id="1417483933" lat="37.2372026" lon="-80.4348022">
+    <tag k="bburg:bt_stopid" v="40f9b997-7377-44de-b19b-aa13c6592e6d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Broce Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1313"/>
+  </node>
+  <node id="1417483948" lat="37.2427395" lon="-80.4306398">
+    <tag k="bburg:bt_stopid" v="2f05cd44-654b-4288-9bd7-97cff0a4fd55"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Falcon Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1321"/>
+  </node>
+  <node id="1417483951" lat="37.2362700" lon="-80.4343300">
+    <tag k="bburg:bt_stopid" v="9db9ff19-278f-43d2-8ca7-1826ae9a6b0b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Glade Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1317"/>
+  </node>
+  <node id="1417483966" lat="37.2357647" lon="-80.4341051">
+    <tag k="bburg:bt_stopid" v="1473b9cc-d2d5-40ac-8663-f3ae3782e235"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Glade Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1314"/>
+  </node>
+  <node id="1417483968" lat="37.2430044" lon="-80.4295692">
+    <tag k="bburg:bt_stopid" v="cf55fc8c-4ba7-42d8-b8af-f0c38143f26d"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Toms Creek Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1322"/>
+  </node>
+  <node id="1417483975" lat="37.2429785" lon="-80.4296702">
+    <tag k="bburg:bt_stopid" v="5115c9d0-cb98-420d-90ce-9dbf8fe456ba"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University City/Toms Creek Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1310"/>
+  </node>
+  <node id="1417483977" lat="37.2342900" lon="-80.4341800">
+    <tag k="bburg:bt_stopid" v="89a3b706-5458-449e-a8c6-550dbe1b3225"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University Mall Main Entrance"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1336"/>
+  </node>
+  <node id="1417483985" lat="37.2346000" lon="-80.4333600">
+    <tag k="bburg:bt_stopid" v="987199ec-f644-4ca2-958b-78cbe60bb126"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University Mall Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1316"/>
+  </node>
+  <node id="1417483987" lat="37.2341897" lon="-80.4333019">
+    <tag k="bburg:bt_stopid" v="d61eff72-2c07-4dd5-8921-411190f0154c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="University Mall Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1315"/>
+  </node>
+  <node id="1417483994" lat="37.2296192" lon="-80.4375779">
+    <tag k="bburg:bt_stopid" v="8ced260e-2cf6-465d-9fda-e01d3ced422f"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vet School Eastbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1217"/>
+  </node>
+  <node id="1417483995" lat="37.2296109" lon="-80.4378114">
+    <tag k="bburg:bt_stopid" v="8c5fca6a-fe50-4e71-bf52-f4bd46257885"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vet School Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1201"/>
+  </node>
+  <node id="1417484001" lat="37.1615700" lon="-80.4259600">
+    <tag k="bburg:bt_stopid" v="850b1921-46d8-431e-bad6-8b09cc7f010b"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wal Mart"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1802"/>
+  </node>
+  <node id="1417484004" lat="37.2266700" lon="-80.4215700">
+    <tag k="bburg:bt_stopid" v="b0a8fa96-a5b9-4cc3-bcc2-081fb903e0f2"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="War Memorial Hall"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1108"/>
+  </node>
+  <node id="1417484007" lat="37.2288972" lon="-80.4274566">
+    <tag k="bburg:bt_stopid" v="e57cf71c-8cf5-4800-8f2d-1777d337ee22"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="West Campus/Perry Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1103"/>
+  </node>
+  <node id="1417484010" lat="37.2524800" lon="-80.4127600">
+    <tag k="bburg:bt_stopid" v="94906423-6487-4021-b749-4d9fcce4e486"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Whipple/Courtney Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1428"/>
+  </node>
+  <node id="1417484016" lat="37.2547900" lon="-80.4134100">
+    <tag k="bburg:bt_stopid" v="9e4b00b3-d3a9-421b-b2cc-472cfa28c133"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Whipple/Givens Westbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1413"/>
+  </node>
+  <node id="1417484018" lat="37.2267501" lon="-80.4257498">
+    <tag k="bburg:bt_stopid" v="14bcbfc8-de53-46c0-8fde-d79ade0d397c"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wright House"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1115"/>
+  </node>
+  <node id="1417484025" lat="37.2432700" lon="-80.4170700">
+    <tag k="bburg:bt_stopid" v="db3f9d05-b37b-499d-bdc7-31ebaa9c0c47"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="1200 North Main Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1426"/>
+  </node>
+  <node id="1417484026" lat="37.2432700" lon="-80.4170700">
+    <tag k="bburg:bt_stopid" v="a524109a-8196-430b-8f29-de33f45b4cc7"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="1200 North Main Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1417"/>
+  </node>
+  <node id="1417484033" lat="37.2491000" lon="-80.4129100">
+    <tag k="bburg:bt_stopid" v="5c4e235a-d053-48b4-b609-fc7e39d45ad9"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="1500 North Main Northbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1409"/>
+  </node>
+  <node id="1417484036" lat="37.2495000" lon="-80.4126200">
+    <tag k="bburg:bt_stopid" v="518bc452-b1ff-482d-823c-0100dfd13ace"/>
+    <tag k="bburg:dataset" v="bt_gtfs_stops"/>
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="1500 North Main Southbound"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="ref" v="1429"/>
+  </node>
+
+</osm>

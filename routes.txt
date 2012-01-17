@@ -1,0 +1,17 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+26034006-01ee-4b8e-910e-70230d59363e,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,HXP,Hokie Express,,3,CD5C5C,000000
+2db320a1-b761-40f9-a596-07f1c4123bb9,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,PH,Patrick Henry,,3,FF69B4,000000
+5036d5c0-12fb-41b9-a579-076e29b80070,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,TC,Tom's Creek,,3,006400,FFFFFF
+56075bc5-875d-426d-a15b-1adffde269f0,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,MSN,Main Street - North,,3,4682B4,000000
+62c18169-6c72-4af8-a359-837a7425d93d,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,MSS,Main Street - South,,3,483D8B,000000
+6468552b-d494-4a3f-a7b2-97f2f7f732ae,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,HDG,Harding Ave,,3,DAA520,000000
+7715d8a0-1159-4a62-9110-22733e9ef532,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,PRG,Progress Street,,3,556B2F,000000
+8baa4b9c-303d-447c-a3b6-71440232baa5,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,UMS,University Mall,,3,20B2AA,000000
+8d161cbf-ce1e-4b42-b6b1-61442f2703ab,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,UCB,University City Blvd,,3,228B22,000000
+a0b88f84-ff7f-439f-acf1-762b16c7a463,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,CRCH,Corporate Research Center/Hospital,,3,DC143C,000000
+b5a3bd17-ec57-496a-b8db-cccdab5aaf1b,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,TTT,Two Town Trolley,,3,800080,FFFFFF
+e3e7215f-093a-4de0-a0d1-74593d528e5b,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,CRC,Corporate Research Center,,3,FF0000,000000
+ea4acb3b-c6f3-4bad-a3ce-bab12187cefa,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,HWD,Hethwood,,3,DAA520,000000
+5cec904c-2ebc-4267-9563-787fe1a65cc6,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,TTR,Tuesday Route,,3,DC143C,000000
+2dfc9fab-29a4-4e0b-b06d-e69f63e0c915,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,BTC,BT Commuter,,3,800080,FFFFFF
+fa276313-5085-40fa-a660-6510fcc5b84e,f0859a7c-ab70-4a23-9469-b3d4a743d5f6,TE,The Explorer,,3,0000FF,FFFFFF
