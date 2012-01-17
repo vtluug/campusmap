@@ -80,14 +80,5 @@ def stop_info(route, stop):
     else:
         return '[]'
 
-@app.route('/routes')
-def get_routes():
-    routes = []
-    with open('routes.txt', 'rb') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            routes.append(row)
-    return json.dumps(routes)
-
 if __name__ == '__main__':
     app.run()
