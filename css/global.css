@@ -139,6 +139,13 @@ h1, h4
     padding-top: 2px;
 }
 
+#announcement
+{
+    margin-top: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
 #footer
 {
     font-size: 0.9em;
