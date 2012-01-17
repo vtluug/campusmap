@@ -29,6 +29,10 @@ def route_stop_info(route, stop):
     doc = lxml.html.parse(r)
     vs, ev = get_asp_crap(doc)
 
+    routes = parse_routes(doc)
+    if route not in routes:
+        return None
+
     data = {
         '__VIEWSTATE' : vs,
         '__EVENTVALIDATION' : ev,
@@ -86,5 +90,4 @@ def get_routes():
     return json.dumps(routes)
 
 if __name__ == '__main__':
-    app.debug = True
     app.run()
