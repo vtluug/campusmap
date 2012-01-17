@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. It has there been collected by a large group of contributors. For individual attribution of each item please refer to http://www.openstreetmap.org/api/0.6/[node|way|relation]/#id/history </note>
+<meta osm_base="2012-01-17T13\:51\:02Z"/>
+
+  <relation id="1973273">
+    <member type="node" ref="721634919" role="stop"/>
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="1417482716" role="stop"/>
+    <member type="node" ref="721642840" role="stop"/>
+    <member type="node" ref="1417482602" role="stop"/>
+    <member type="node" ref="1417482746" role="stop"/>
+    <member type="node" ref="1417483655" role="stop"/>
+    <member type="node" ref="1417483521" role="stop"/>
+    <member type="node" ref="1417483510" role="stop"/>
+    <member type="node" ref="1417483529" role="stop"/>
+    <member type="node" ref="1417483535" role="stop"/>
+    <member type="node" ref="1417482741" role="stop"/>
+    <member type="node" ref="1417482743" role="stop"/>
+    <member type="node" ref="1417483659" role="stop"/>
+    <member type="node" ref="1417483663" role="stop"/>
+    <member type="node" ref="1417482588" role="stop"/>
+    <member type="node" ref="1417482744" role="stop"/>
+    <member type="node" ref="1417482742" role="stop"/>
+    <member type="node" ref="1417483548" role="stop"/>
+    <member type="node" ref="1417483524" role="stop"/>
+    <member type="node" ref="1417483652" role="stop"/>
+    <member type="node" ref="1417482745" role="stop"/>
+    <member type="node" ref="1417482601" role="stop"/>
+    <member type="node" ref="1417483819" role="stop"/>
+    <tag k="name" v="Corporate Research Center"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="CRC"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="1973274">
+    <member type="node" ref="721634919" role="stop"/>
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="1417482716" role="stop"/>
+    <member type="node" ref="721642840" role="stop"/>
+    <member type="node" ref="1417482602" role="stop"/>
+    <member type="node" ref="1417482746" role="stop"/>
+    <member type="node" ref="1417483655" role="stop"/>
+    <member type="node" ref="1417483521" role="stop"/>
+    <member type="node" ref="1417483510" role="stop"/>
+    <member type="node" ref="1417483529" role="stop"/>
+    <member type="node" ref="1417483535" role="stop"/>
+    <member type="node" ref="1417482741" role="stop"/>
+    <member type="node" ref="1417482743" role="stop"/>
+    <member type="node" ref="1417482740" role="stop"/>
+    <member type="node" ref="1417483642" role="stop"/>
+    <member type="node" ref="1417483591" role="stop"/>
+    <member type="node" ref="1417482826" role="stop"/>
+    <member type="node" ref="1417483107" role="stop"/>
+    <member type="node" ref="1417482606" role="stop"/>
+    <member type="node" ref="1417482608" role="stop"/>
+    <member type="node" ref="1417482607" role="stop"/>
+    <member type="node" ref="1417483114" role="stop"/>
+    <member type="node" ref="1417482847" role="stop"/>
+    <member type="node" ref="1417483130" role="stop"/>
+    <member type="node" ref="1417483238" role="stop"/>
+    <member type="node" ref="1417483659" role="stop"/>
+    <member type="node" ref="1417483663" role="stop"/>
+    <member type="node" ref="1417482588" role="stop"/>
+    <member type="node" ref="1417482744" role="stop"/>
+    <member type="node" ref="1417482742" role="stop"/>
+    <member type="node" ref="1417483548" role="stop"/>
+    <member type="node" ref="1417483524" role="stop"/>
+    <member type="node" ref="1417483652" role="stop"/>
+    <member type="node" ref="1417482745" role="stop"/>
+    <member type="node" ref="1417482601" role="stop"/>
+    <member type="node" ref="1417483819" role="stop"/>
+    <tag k="name" v="Corporate Research Center/Hospital"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="CRCH"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+  </relation>
+  <relation id="1973275">
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="1417482738" role="stop"/>
+    <member type="node" ref="1417484004" role="stop"/>
+    <member type="node" ref="1417483910" role="stop"/>
+    <member type="node" ref="1417483403" role="stop"/>
+    <member type="node" ref="1417483753" role="stop"/>
+    <member type="node" ref="1417483584" role="stop"/>
+    <member type="node" ref="1417482825" role="stop"/>
+    <member type="node" ref="1417483148" role="stop"/>
+    <member type="node" ref="1417483742" role="stop"/>
+    <member type="node" ref="1417482589" role="stop"/>
+    <member type="node" ref="1417483094" role="stop"/>
+    <member type="node" ref="1417483671" role="stop"/>
+    <member type="node" ref="1417483687" role="stop"/>
+    <member type="node" ref="1417483677" role="stop"/>
+    <member type="node" ref="1417483693" role="stop"/>
+    <member type="node" ref="1417482688" role="stop"/>
+    <member type="node" ref="1417482676" role="stop"/>
+    <member type="node" ref="1417482689" role="stop"/>
+    <member type="node" ref="1417482666" role="stop"/>
+    <member type="node" ref="1417482715" role="stop"/>
+    <member type="node" ref="1417482701" role="stop"/>
+    <member type="node" ref="1417482594" role="stop"/>
+    <member type="node" ref="943190647" role="stop"/>
+    <member type="node" ref="1417482595" role="stop"/>
+    <member type="node" ref="1417482704" role="stop"/>
+    <member type="node" ref="1417482708" role="stop"/>
+    <member type="node" ref="1417482671" role="stop"/>
+    <member type="node" ref="1417482699" role="stop"/>
+    <member type="node" ref="1417482679" role="stop"/>
+    <member type="node" ref="1417483694" role="stop"/>
+    <member type="node" ref="1417483681" role="stop"/>
+    <member type="node" ref="1417483689" role="stop"/>
+    <member type="node" ref="1417483672" role="stop"/>
+    <member type="node" ref="1417482764" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
+    <tag k="name" v="Harding Avenue"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="HDG"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973276">
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="721635429" role="stop"/>
+    <member type="node" ref="1417484007" role="stop"/>
+    <member type="node" ref="1417483571" role="stop"/>
+    <member type="node" ref="1417483995" role="stop"/>
+    <member type="node" ref="1417483579" role="stop"/>
+    <member type="node" ref="1417483559" role="stop"/>
+    <member type="node" ref="1417482736" role="stop"/>
+    <member type="node" ref="1417482734" role="stop"/>
+    <member type="node" ref="1417483788" role="stop"/>
+    <member type="node" ref="1417483758" role="stop"/>
+    <member type="node" ref="726771676" role="stop"/>
+    <member type="node" ref="1417483763" role="stop"/>
+    <member type="node" ref="1417482735" role="stop"/>
+    <member type="node" ref="1417482729" role="stop"/>
+    <member type="node" ref="1417482725" role="stop"/>
+    <member type="node" ref="1417483551" role="stop"/>
+    <member type="node" ref="1417483574" role="stop"/>
+    <member type="node" ref="1417483994" role="stop"/>
+    <member type="node" ref="1417483561" role="stop"/>
+    <member type="node" ref="1417482600" role="stop"/>
+    <member type="node" ref="1417483220" role="stop"/>
+    <tag k="name" v="Hethwood A"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="HWDA"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973277">
+    <member type="node" ref="1417483910" role="stop"/>
+    <member type="node" ref="1417483403" role="stop"/>
+    <member type="node" ref="1417483753" role="stop"/>
+    <member type="node" ref="1417483571" role="stop"/>
+    <member type="node" ref="1417483995" role="stop"/>
+    <member type="node" ref="1417483579" role="stop"/>
+    <member type="node" ref="1417483559" role="stop"/>
+    <member type="node" ref="1417482737" role="stop"/>
+    <member type="node" ref="1417483806" role="stop"/>
+    <member type="node" ref="1417483764" role="stop"/>
+    <member type="node" ref="1417483796" role="stop"/>
+    <member type="node" ref="1417482735" role="stop"/>
+    <member type="node" ref="1417482729" role="stop"/>
+    <member type="node" ref="1417482725" role="stop"/>
+    <member type="node" ref="1417483551" role="stop"/>
+    <member type="node" ref="1417483574" role="stop"/>
+    <member type="node" ref="1417483994" role="stop"/>
+    <member type="node" ref="1417483561" role="stop"/>
+    <member type="node" ref="1417484018" role="stop"/>
+    <member type="node" ref="1417482738" role="stop"/>
+    <member type="node" ref="1417484004" role="stop"/>
+    <tag k="name" v="Hethwood B"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="HWDB"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973278">
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="721635429" role="stop"/>
+    <member type="node" ref="1417484007" role="stop"/>
+    <member type="node" ref="1417483571" role="stop"/>
+    <member type="node" ref="1417483995" role="stop"/>
+    <member type="node" ref="1417483579" role="stop"/>
+    <member type="node" ref="1417483559" role="stop"/>
+    <member type="node" ref="1417482737" role="stop"/>
+    <member type="node" ref="1417483806" role="stop"/>
+    <member type="node" ref="1417483764" role="stop"/>
+    <member type="node" ref="1417483796" role="stop"/>
+    <member type="node" ref="1417482734" role="stop"/>
+    <member type="node" ref="1417483788" role="stop"/>
+    <member type="node" ref="1417483758" role="stop"/>
+    <member type="node" ref="726771676" role="stop"/>
+    <member type="node" ref="1417483763" role="stop"/>
+    <member type="node" ref="1417482735" role="stop"/>
+    <member type="node" ref="1417482729" role="stop"/>
+    <member type="node" ref="1417482736" role="stop"/>
+    <member type="node" ref="1417482725" role="stop"/>
+    <member type="node" ref="1417483551" role="stop"/>
+    <member type="node" ref="1417483574" role="stop"/>
+    <member type="node" ref="1417483994" role="stop"/>
+    <member type="node" ref="1417483561" role="stop"/>
+    <member type="node" ref="1417482600" role="stop"/>
+    <member type="node" ref="1417483220" role="stop"/>
+    <tag k="name" v="Hethwood"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="HWD"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973279">
+    <member type="node" ref="721634919" role="stop"/>
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="721635429" role="stop"/>
+    <member type="node" ref="1417482754" role="stop"/>
+    <member type="node" ref="1417482749" role="stop"/>
+    <member type="node" ref="1417482596" role="stop"/>
+    <member type="node" ref="1417483430" role="stop"/>
+    <member type="node" ref="1417483355" role="stop"/>
+    <member type="node" ref="1417483334" role="stop"/>
+    <member type="node" ref="1417483371" role="stop"/>
+    <member type="node" ref="1417483408" role="stop"/>
+    <member type="node" ref="1417482739" role="stop"/>
+    <member type="node" ref="1417482610" role="stop"/>
+    <member type="node" ref="721642840" role="stop"/>
+    <member type="node" ref="1417482601" role="stop"/>
+    <member type="node" ref="1417483819" role="stop"/>
+    <member type="node" ref="1417482982" role="stop"/>
+    <member type="node" ref="1417482764" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
+    <member type="node" ref="1417482716" role="stop"/>
+    <member type="node" ref="1417482738" role="stop"/>
+    <tag k="name" v="Hokie Express"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="HXP"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973280">
+    <member type="node" ref="726767557" role="stop"/>
+    <member type="node" ref="1417483910" role="stop"/>
+    <member type="node" ref="1417483403" role="stop"/>
+    <member type="node" ref="1417483753" role="stop"/>
+    <member type="node" ref="1417483584" role="stop"/>
+    <member type="node" ref="1417483015" role="stop"/>
+    <member type="node" ref="1417482996" role="stop"/>
+    <member type="node" ref="1417482761" role="stop"/>
+    <member type="node" ref="1417482755" role="stop"/>
+    <member type="node" ref="1417482637" role="stop"/>
+    <member type="node" ref="1417482632" role="stop"/>
+    <member type="node" ref="1417482642" role="stop"/>
+    <member type="node" ref="1417483438" role="stop"/>
+    <member type="node" ref="1417483451" role="stop"/>
+    <member type="node" ref="1417483480" role="stop"/>
+    <member type="node" ref="1417483709" role="stop"/>
+    <member type="node" ref="1417483501" role="stop"/>
+    <member type="node" ref="1417483628" role="stop"/>
+    <member type="node" ref="1417483637" role="stop"/>
+    <member type="node" ref="733301632" role="stop"/>
+    <member type="node" ref="726761277" role="stop"/>
+    <member type="node" ref="1417482825" role="stop"/>
+    <member type="node" ref="1417483148" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <tag k="name" v="Patrick Henry"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="PH"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973281">
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="721635429" role="stop"/>
+    <member type="node" ref="1417484007" role="stop"/>
+    <member type="node" ref="1417483584" role="stop"/>
+    <member type="node" ref="1417483638" role="stop"/>
+    <member type="node" ref="1417483608" role="stop"/>
+    <member type="node" ref="1417483636" role="stop"/>
+    <member type="node" ref="1417483629" role="stop"/>
+    <member type="node" ref="1417483840" role="stop"/>
+    <member type="node" ref="1417483497" role="stop"/>
+    <member type="node" ref="1417483860" role="stop"/>
+    <member type="node" ref="1417483878" role="stop"/>
+    <member type="node" ref="1417483889" role="stop"/>
+    <member type="node" ref="1417482623" role="stop"/>
+    <member type="node" ref="1417483901" role="stop"/>
+    <member type="node" ref="1417482600" role="stop"/>
+    <member type="node" ref="1417483220" role="stop"/>
+    <tag k="name" v="Progress Street"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="PRG"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973282">
+    <member type="node" ref="1417483910" role="stop"/>
+    <member type="node" ref="1417483403" role="stop"/>
+    <member type="node" ref="1417483753" role="stop"/>
+    <member type="node" ref="1417483584" role="stop"/>
+    <member type="node" ref="1417483638" role="stop"/>
+    <member type="node" ref="1417483608" role="stop"/>
+    <member type="node" ref="1417483636" role="stop"/>
+    <member type="node" ref="1417483629" role="stop"/>
+    <member type="node" ref="1417483497" role="stop"/>
+    <member type="node" ref="1417483840" role="stop"/>
+    <member type="node" ref="1417483896" role="stop"/>
+    <member type="node" ref="700331086" role="stop"/>
+    <member type="node" ref="1417483879" role="stop"/>
+    <member type="node" ref="1417483843" role="stop"/>
+    <member type="node" ref="1417483861" role="stop"/>
+    <member type="node" ref="1417483975" role="stop"/>
+    <member type="node" ref="1417483736" role="stop"/>
+    <member type="node" ref="1417483726" role="stop"/>
+    <member type="node" ref="1417483933" role="stop"/>
+    <member type="node" ref="1417483966" role="stop"/>
+    <member type="node" ref="1417483987" role="stop"/>
+    <member type="node" ref="1417484018" role="stop"/>
+    <member type="node" ref="1417482754" role="stop"/>
+    <member type="node" ref="721642840" role="stop"/>
+    <member type="node" ref="1417482601" role="stop"/>
+    <member type="node" ref="1417483819" role="stop"/>
+    <member type="node" ref="721634919" role="stop"/>
+    <tag k="name" v="Toms Creek"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="TC"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973283">
+    <member type="node" ref="1417483742" role="stop"/>
+    <member type="node" ref="1417483094" role="stop"/>
+    <member type="node" ref="1417482611" role="stop"/>
+    <member type="node" ref="1417483238" role="stop"/>
+    <member type="node" ref="1417484001" role="stop"/>
+    <member type="node" ref="1417483737" role="stop"/>
+    <member type="node" ref="1417483314" role="stop"/>
+    <member type="node" ref="1417482748" role="stop"/>
+    <member type="node" ref="1417482747" role="stop"/>
+    <member type="node" ref="1417482603" role="stop"/>
+    <member type="node" ref="1417483506" role="stop"/>
+    <member type="node" ref="1417482591" role="stop"/>
+    <member type="node" ref="1417483238" role="stop"/>
+    <member type="node" ref="1417482783" role="stop"/>
+    <member type="node" ref="1417482764" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
+    <tag k="name" v="Two Town Trolley"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="TTT"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973284">
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="721635429" role="stop"/>
+    <member type="node" ref="1417484007" role="stop"/>
+    <member type="node" ref="1417483985" role="stop"/>
+    <member type="node" ref="1417483951" role="stop"/>
+    <member type="node" ref="1417483922" role="stop"/>
+    <member type="node" ref="1417483724" role="stop"/>
+    <member type="node" ref="1417483714" role="stop"/>
+    <member type="node" ref="1417483948" role="stop"/>
+    <member type="node" ref="1417483968" role="stop"/>
+    <member type="node" ref="1417483485" role="stop"/>
+    <member type="node" ref="1417483830" role="stop"/>
+    <member type="node" ref="1417483458" role="stop"/>
+    <member type="node" ref="1417483628" role="stop"/>
+    <member type="node" ref="1417483637" role="stop"/>
+    <member type="node" ref="733301632" role="stop"/>
+    <member type="node" ref="726761277" role="stop"/>
+    <member type="node" ref="1417482600" role="stop"/>
+    <member type="node" ref="1417483220" role="stop"/>
+    <tag k="name" v="University City Boulevard"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="UCB"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973285">
+    <member type="node" ref="721634919" role="stop"/>
+    <member type="node" ref="1417482599" role="stop"/>
+    <member type="node" ref="1417484007" role="stop"/>
+    <member type="node" ref="1417483378" role="stop"/>
+    <member type="node" ref="1417483977" role="stop"/>
+    <member type="node" ref="1417484018" role="stop"/>
+    <member type="node" ref="1417482754" role="stop"/>
+    <member type="node" ref="721642840" role="stop"/>
+    <member type="node" ref="1417482601" role="stop"/>
+    <member type="node" ref="1417483819" role="stop"/>
+    <tag k="name" v="University Mall Shuttle"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="UMS"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973326">
+    <member type="node" ref="1417483742" role="stop"/>
+    <member type="node" ref="1417482589" role="stop"/>
+    <member type="node" ref="1417483142" role="stop"/>
+    <member type="node" ref="1417483015" role="stop"/>
+    <member type="node" ref="1417482996" role="stop"/>
+    <member type="node" ref="1417482990" role="stop"/>
+    <member type="node" ref="1417483041" role="stop"/>
+    <member type="node" ref="1417483069" role="stop"/>
+    <member type="node" ref="1417484033" role="stop"/>
+    <member type="node" ref="1417482930" role="stop"/>
+    <member type="node" ref="1417483084" role="stop"/>
+    <member type="node" ref="1417482648" role="stop"/>
+    <member type="node" ref="1417484016" role="stop"/>
+    <member type="node" ref="1417484010" role="stop"/>
+    <member type="node" ref="1417484036" role="stop"/>
+    <member type="node" ref="1417482761" role="stop"/>
+    <member type="node" ref="1417482755" role="stop"/>
+    <member type="node" ref="1417482637" role="stop"/>
+    <member type="node" ref="1417482632" role="stop"/>
+    <member type="node" ref="1417482642" role="stop"/>
+    <member type="node" ref="1417483438" role="stop"/>
+    <member type="node" ref="1417483480" role="stop"/>
+    <member type="node" ref="1417483709" role="stop"/>
+    <member type="node" ref="1417483501" role="stop"/>
+    <member type="node" ref="1417483451" role="stop"/>
+    <member type="node" ref="1417483074" role="stop"/>
+    <member type="node" ref="1417484026" role="stop"/>
+    <member type="node" ref="1417483046" role="stop"/>
+    <member type="node" ref="1417483008" role="stop"/>
+    <member type="node" ref="1417483022" role="stop"/>
+    <member type="node" ref="726761277" role="stop"/>
+    <member type="node" ref="1417482825" role="stop"/>
+    <member type="node" ref="1417483148" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
+    <member type="node" ref="1417483094" role="stop"/>
+    <member type="node" ref="1417482597" role="stop"/>
+    <member type="node" ref="1417482897" role="stop"/>
+    <member type="node" ref="1417482872" role="stop"/>
+    <member type="node" ref="1417482958" role="stop"/>
+    <member type="node" ref="1417482882" role="stop"/>
+    <member type="node" ref="1417482774" role="stop"/>
+    <member type="node" ref="1417482911" role="stop"/>
+    <member type="node" ref="1417482611" role="stop"/>
+    <member type="node" ref="1417482978" role="stop"/>
+    <member type="node" ref="1417483177" role="stop"/>
+    <member type="node" ref="1417483163" role="stop"/>
+    <member type="node" ref="1417482659" role="stop"/>
+    <member type="node" ref="1417483292" role="stop"/>
+    <member type="node" ref="1417483274" role="stop"/>
+    <member type="node" ref="1417482607" role="stop"/>
+    <member type="node" ref="1417482606" role="stop"/>
+    <member type="node" ref="1417482608" role="stop"/>
+    <member type="node" ref="1417483267" role="stop"/>
+    <member type="node" ref="1417483286" role="stop"/>
+    <member type="node" ref="1417482655" role="stop"/>
+    <member type="node" ref="1417483199" role="stop"/>
+    <member type="node" ref="1417483166" role="stop"/>
+    <member type="node" ref="1417483182" role="stop"/>
+    <member type="node" ref="1417483205" role="stop"/>
+    <member type="node" ref="1417483107" role="stop"/>
+    <member type="node" ref="1417482847" role="stop"/>
+    <member type="node" ref="1417483130" role="stop"/>
+    <member type="node" ref="1417483600" role="stop"/>
+    <member type="node" ref="1417482740" role="stop"/>
+    <member type="node" ref="1417483642" role="stop"/>
+    <member type="node" ref="1417483591" role="stop"/>
+    <member type="node" ref="1417482826" role="stop"/>
+    <member type="node" ref="1417483114" role="stop"/>
+    <member type="node" ref="1417482968" role="stop"/>
+    <member type="node" ref="1417482783" role="stop"/>
+    <member type="node" ref="1417482598" role="stop"/>
+    <member type="node" ref="1417482807" role="stop"/>
+    <member type="node" ref="1417483136" role="stop"/>
+    <member type="node" ref="1417482941" role="stop"/>
+    <member type="node" ref="1417482955" role="stop"/>
+    <member type="node" ref="1417482854" role="stop"/>
+    <member type="node" ref="1417482802" role="stop"/>
+    <member type="node" ref="1417482982" role="stop"/>
+    <member type="node" ref="1417482764" role="stop"/>
+    <tag k="name" v="Main Street South"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="MSS"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="1973794">
+    <member type="node" ref="1417483742" role="stop"/>
+    <member type="node" ref="1417482589" role="stop"/>
+    <member type="node" ref="1417483094" role="stop"/>
+    <member type="node" ref="1417482597" role="stop"/>
+    <member type="node" ref="1417482897" role="stop"/>
+    <member type="node" ref="1417482872" role="stop"/>
+    <member type="node" ref="1417482958" role="stop"/>
+    <member type="node" ref="1417482882" role="stop"/>
+    <member type="node" ref="1417482774" role="stop"/>
+    <member type="node" ref="1417482911" role="stop"/>
+    <member type="node" ref="1417482611" role="stop"/>
+    <member type="node" ref="1417482978" role="stop"/>
+    <member type="node" ref="1417483177" role="stop"/>
+    <member type="node" ref="1417483163" role="stop"/>
+    <member type="node" ref="1417482659" role="stop"/>
+    <member type="node" ref="1417483292" role="stop"/>
+    <member type="node" ref="1417483274" role="stop"/>
+    <member type="node" ref="1417482607" role="stop"/>
+    <member type="node" ref="1417482606" role="stop"/>
+    <member type="node" ref="1417482608" role="stop"/>
+    <member type="node" ref="1417483267" role="stop"/>
+    <member type="node" ref="1417483286" role="stop"/>
+    <member type="node" ref="1417482655" role="stop"/>
+    <member type="node" ref="1417483199" role="stop"/>
+    <member type="node" ref="1417483166" role="stop"/>
+    <member type="node" ref="1417483182" role="stop"/>
+    <member type="node" ref="1417483205" role="stop"/>
+    <member type="node" ref="1417483107" role="stop"/>
+    <member type="node" ref="1417482847" role="stop"/>
+    <member type="node" ref="1417483130" role="stop"/>
+    <member type="node" ref="1417483600" role="stop"/>
+    <member type="node" ref="1417482740" role="stop"/>
+    <member type="node" ref="1417483642" role="stop"/>
+    <member type="node" ref="1417483591" role="stop"/>
+    <member type="node" ref="1417482826" role="stop"/>
+    <member type="node" ref="1417483114" role="stop"/>
+    <member type="node" ref="1417482968" role="stop"/>
+    <member type="node" ref="1417482783" role="stop"/>
+    <member type="node" ref="1417482598" role="stop"/>
+    <member type="node" ref="1417482807" role="stop"/>
+    <member type="node" ref="1417483136" role="stop"/>
+    <member type="node" ref="1417482941" role="stop"/>
+    <member type="node" ref="1417482955" role="stop"/>
+    <member type="node" ref="1417482854" role="stop"/>
+    <member type="node" ref="1417482802" role="stop"/>
+    <member type="node" ref="1417482982" role="stop"/>
+    <member type="node" ref="1417482764" role="stop"/>
+    <member type="node" ref="1417483142" role="stop"/>
+    <member type="node" ref="1417483015" role="stop"/>
+    <member type="node" ref="1417482996" role="stop"/>
+    <member type="node" ref="1417482990" role="stop"/>
+    <member type="node" ref="1417483041" role="stop"/>
+    <member type="node" ref="1417483069" role="stop"/>
+    <member type="node" ref="1417484033" role="stop"/>
+    <member type="node" ref="1417482930" role="stop"/>
+    <member type="node" ref="1417483084" role="stop"/>
+    <member type="node" ref="1417482648" role="stop"/>
+    <member type="node" ref="1417484016" role="stop"/>
+    <member type="node" ref="1417484010" role="stop"/>
+    <member type="node" ref="1417484036" role="stop"/>
+    <member type="node" ref="1417482761" role="stop"/>
+    <member type="node" ref="1417482755" role="stop"/>
+    <member type="node" ref="1417482637" role="stop"/>
+    <member type="node" ref="1417482632" role="stop"/>
+    <member type="node" ref="1417482642" role="stop"/>
+    <member type="node" ref="1417483438" role="stop"/>
+    <member type="node" ref="1417483480" role="stop"/>
+    <member type="node" ref="1417483709" role="stop"/>
+    <member type="node" ref="1417483501" role="stop"/>
+    <member type="node" ref="1417483451" role="stop"/>
+    <member type="node" ref="1417483074" role="stop"/>
+    <member type="node" ref="1417484026" role="stop"/>
+    <member type="node" ref="1417483046" role="stop"/>
+    <member type="node" ref="1417483008" role="stop"/>
+    <member type="node" ref="1417483022" role="stop"/>
+    <member type="node" ref="726761277" role="stop"/>
+    <member type="node" ref="1417482825" role="stop"/>
+    <member type="node" ref="1417483148" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
+    <tag k="name" v="Main Street North"/>
+    <tag k="network" v="BT"/>
+    <tag k="operator" v="Blacksburg Transit"/>
+    <tag k="ref" v="MSN"/>
+    <tag k="route" v="bus"/>
+    <tag k="type" v="route"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+
+</osm>

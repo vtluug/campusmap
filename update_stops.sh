@@ -3,3 +3,4 @@
 XAPI_SERVER=http://www.overpass-api.de/api/xapi?
 
 curl -o stops.osm --location --globoff "${XAPI_SERVER}node[highway=bus_stop][operator=Blacksburg%20Transit]"
+curl -o routes.osm --location --globoff "${XAPI_SERVER}relation[type=route][route=bus][operator=Blacksburg%20Transit]"
