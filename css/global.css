@@ -79,6 +79,14 @@ body
     background: #666;
 }
 
+.olPopup h4
+{
+    margin: 0 0 6px 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 #map_toolbar,
 #map_search
 {

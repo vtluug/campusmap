@@ -1,5 +1,5 @@
-BT4U_API_URL = "http://dev.map.vtluug.org/bt4u";
-STOPS_OSM_URL = "http://dev.map.vtluug.org/stops.osm";
+BT4U_API_URL = "/bt4u";
+STOPS_OSM_URL = "/stops.osm";
 
 routeId = "";
 updateTimer = null;
@@ -88,8 +88,8 @@ function loadArrivalTimes(route, stop)
             }
         }
         else {
-            $('#arrival_times').html("No runs currently scheduled for this stop" +
-                "on this route");
+            $('#arrival_times').html("No runs currently scheduled for this " +
+                "stop on this route");
         }
     });
 }
