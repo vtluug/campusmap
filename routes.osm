@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. It has there been collected by a large group of contributors. For individual attribution of each item please refer to http://www.openstreetmap.org/api/0.6/[node|way|relation]/#id/history </note>
-<meta osm_base="2012-01-17T13\:51\:02Z"/>
+<meta osm_base="2012-01-18T01\:11\:03Z"/>
 
   <relation id="1973273">
     <member type="node" ref="721634919" role="stop"/>
@@ -392,6 +392,10 @@
     <member type="node" ref="726761277" role="stop"/>
     <member type="node" ref="1417482600" role="stop"/>
     <member type="node" ref="1417483220" role="stop"/>
+    <member type="node" ref="1417482825" role="stop"/>
+    <member type="node" ref="1417483148" role="stop"/>
+    <member type="node" ref="1417482590" role="stop"/>
+    <member type="node" ref="726767557" role="stop"/>
     <tag k="name" v="University City Boulevard"/>
     <tag k="network" v="BT"/>
     <tag k="operator" v="Blacksburg Transit"/>
