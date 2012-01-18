@@ -1,29 +1,10 @@
 body
 {
     margin: 0;
+    padding: 0;
     background: #f5f5eb;
     font-family: "DejaVu Sans", "Bitstream Vera Sans", sans-serif;
     font-size: 90%;
-}
-
-#header
-{
-    background: url(../images/scanline.png) #660000;
-    color: #f5f5eb;
-
-    background: url(../images/scanline.png), -moz-linear-gradient(90deg, #770000, #990000);
-    background: url(../images/scanline.png), -webkit-gradient(linear, 0 0, 0 100%, from(#990000), to(#770000));
-}
-
-#header, #footer
-{
-    padding: 12px;
-}
-
-#header h1
-{
-    padding: 0;
-    font-size: 2.7em;
 }
 
 h1, h4
@@ -32,43 +13,60 @@ h1, h4
     font-weight: bold;
 }
 
-/* center header and content, give it a standard width */
-#header h1,
-#content_wrapper
+#infobox,
+.olPopup
 {
-    width: 1015px;
-    margin: 0 auto;
+    background: #fff !important;
+    border: 1px solid #dbd8bc !important;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 153);
 }
 
-#content_wrapper
+/* Info box {{{ */
+#infobox
 {
-    padding: 12px 6px;
-    background: #fff;
+    position: absolute;
+    z-index: 100000;
+    top: 24px;
+    left: 60px;
+    width: 400px;
+    padding: 12px;
 }
 
-#map_container,
-#map
+#infobox h1
 {
-    width: 996px;
+    margin: 0;
 }
 
-#map_container
+#infobox button
 {
-    margin: 0 auto;
-    padding: 1px;
-    border: 1px solid #dbd8bc;
+    float: right;
+    margin-top: 4px;
 }
 
-#map
+#infobox_content
 {
-    height: 700px;
+    margin-top: 12px;
 }
 
+#map_toolbar button
+{
+    float: right;
+    margin: 1px 1px 1px 10px;
+}
+
+#map_search
+{
+    padding-top: 2px;
+}
+/* }}} */
+
+/* Map elements {{{ */
 .olControlAttribution
 {
     bottom: 3px !important;
-    font-size: 0.75em !important;
-    text-shadow: 0 0 4px #fff;
+    font-size: 0.8em !important;
+    text-shadow: 0 0 2px 2px #fff;
     opacity: 0.6;
 }
 
@@ -85,14 +83,6 @@ h1, h4
     background: #666;
 }
 
-.olPopup
-{
-    background: #fff !important;
-    border: 1px solid #dbd8bc !important;
-    border-radius: 6px;
-    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 153);
-}
-
 .olPopup h4
 {
     margin: 0 0 6px 0;
@@ -100,56 +90,7 @@ h1, h4
     font-size: 1.4em;
     font-weight: bold;
 }
-
-#map_toolbar,
-#map_search
-{
-    background: #f5f5eb;
-}
-
-#map_toolbar
-{
-    margin-top: 1px;
-}
-
-#map_toolbar button,
-#map_toolbar .fake_button
-{
-    float: right;
-    margin: 1px 1px 1px 10px;
-}
-
-#map_toolbar .fake_button
-{
-    display: inline-block;
-    padding: 3px;
-    /*border: 1px solid #5e5851;*/
-    background: #dbccbd;
-    color: #5e5851;
-    text-decoration: none;
-    font-size: 0.9em;
-
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-display:
-}
-
-#map_search
-{
-    padding-top: 2px;
-}
-
-#announcement
-{
-    margin-top: 12px;
-    text-align: center;
-    font-weight: bold;
-}
-
-#footer
-{
-    font-size: 0.9em;
-}
+/* }}} */
 
 .clear
 {

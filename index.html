@@ -18,53 +18,35 @@
 </head>
 <body>
 <div id='wrapper'>
-	<div id='header'>
-		<h1>Virginia Tech Campus Map</h1>
+	<div id='infobox'>
+        <button>+</button>
+        <h1>Virginia Tech Campus Map</h1>
+
+        <div id='infobox_content'>
+            <p>Zoom in to view campus buildings, apartment complexes,
+            footpaths, bike parking, and more.</p>
+
+            <p>If you click on a bus stop, you can see the next estimated
+            arrival time, powered by <a href='http://bt4u.org'
+            rel='external'>BT4U</a>.</p>
+        
+            <p>This map is provided by the <a href='http://vtluug.org/'
+            rel='external'>Linux and Unix Users Group at Virginia Tech</a>.
+            Server funding provided by the <a href='http://www.sec.vt.edu/'
+            rel='external'>Student Engineer's Council</a>.</p>
+
+	        <div id='map_toolbar'>
+		        <form action='' method='get' id='search_frm'>
+			        <input name='q' id='search_box' value='' />
+			        <input type='submit' value='Search' />
+		        </form>
+
+		        <div class='clear'></div>
+	        </div>
+        </div>
 	</div>
 
-	<div id='content_wrapper'>
-		<div id='content'>
-			<div id='map_container'>
-				<div id='map'></div>
-
-				<div id='map_toolbar'>
-					<form action='' method='get' id='search_frm'>
-						<input name='q' id='search_box' value='' />
-						<input type='submit' value='Search' />
-					</form>
-
-					<div class='clear'></div>
-				</div>
-			</div>
-
-			<script type='text/javascript'>
-			// <![CDATA[
-			initMap();
-			initBusData();
-			initSearch();
-			addLocateButton();
-
-			wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
-			map.addLayer(wigle);
-
-            // VBMP 2009 imagery, apparently public domain as of early 2012
-            // https://wiki.openstreetmap.org/wiki/Virginia#2009_VBMP_Orthoimagery
-			//vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
-			vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
-			arcgis_add("VBMP 2009 (Aerial)", vbmp2009);
-			// ]]>
-			</script>
-		</div>
-
-		<div id='announcement'>
-			Click on a bus stop to get arrival times powered by <a
-				href='http://bt4u.org' rel='external'>BT4U</a>.
-		</div>
-
-		<div id='footer'>
-			A service of the <a href='http://vtluug.org/' rel='external'>Linux and Unix Users Group at Virginia Tech</a>. Server funding provided by the <a href='http://www.sec.vt.edu/' rel='external'>Student Engineer's Council</a>.
-		</div>
-	</div>
+    <div id='map'></div>
 </div>
 </body>
 </html>

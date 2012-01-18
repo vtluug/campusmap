@@ -1,7 +1,7 @@
 // initial location and zoom
 lat = 37.231797472275744;
 lon = -80.42846213700699;
-INITIAL_ZOOM = 14;
+INITIAL_ZOOM = 15;
 CLOSER_ZOOM = 17;
 
 EPSG_4326 = new OpenLayers.Projection('EPSG:4326');
@@ -12,6 +12,28 @@ AutoSizeAnchoredBubble = OpenLayers.Class(OpenLayers.Popup.AnchoredBubble, { 'au
 var map;
 
 OpenLayers.ImgPath = "/images/openlayers/dark/";
+
+$(document).ready(function(){
+	$('#map').width($(document).width())
+	$('#map').height($(document).height())
+	$('#infobox button').click(function(){
+	    $('#infobox_content').toggle();
+	});
+
+	initMap();
+	initBusData();
+	initSearch();
+	addLocateButton();
+
+	wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
+	map.addLayer(wigle);
+
+    // VBMP 2009 imagery, apparently public domain as of early 2012
+    // https://wiki.openstreetmap.org/wiki/Virginia#2009_VBMP_Orthoimagery
+	//vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
+	vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
+	arcgis_add("VBMP 2009 (Aerial)", vbmp2009);
+});
 
 /**
  * Initialize the map
