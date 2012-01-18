@@ -49,6 +49,12 @@ h1, h4
     margin-top: 12px;
 }
 
+p.bus_stop
+{
+    background: url(/images/bus_stop.p.12.png) center left no-repeat;
+    padding-left: 24px;
+}
+
 #map_toolbar button
 {
     float: right;

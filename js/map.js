@@ -23,7 +23,6 @@ $(document).ready(function(){
 	initMap();
 	initBusData();
 	initSearch();
-	addLocateButton();
 
 	wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
 	map.addLayer(wigle);
