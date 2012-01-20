@@ -14,8 +14,8 @@ var map;
 OpenLayers.ImgPath = "/images/openlayers/dark/";
 
 $(document).ready(function(){
-	$('#map').width($(document).width())
-	$('#map').height($(document).height())
+	$('#map').width($(window).width())
+	$('#map').height($(window).height())
 	$('#infobox button').click(function(){
 	    $('#infobox_content').toggle();
 	});
@@ -32,6 +32,11 @@ $(document).ready(function(){
 	//vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
 	vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
 	arcgis_add("VBMP 2009 (Aerial)", vbmp2009);
+});
+
+$(window).resize(function(){
+	$('#map').width($(window).width())
+	$('#map').height($(window).height())
 });
 
 /**
