@@ -1,0 +1,32 @@
+@font-face
+{
+	font-family: Delicious;
+	/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+	src: url('../fonts/Delicious-Roman.otf');
+}
+
+@font-face
+{
+	font-family: Delicious;
+	font-weight: bold;
+	/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+	src: url('../fonts/Delicious-Bold.otf');
+}
+
+@font-face
+{
+	font-family: Delicious;
+	font-style: italic;
+	/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+	src: url('../fonts/Delicious-Italic.otf');
+}
+
+@font-face
+{
+	font-family: Delicious;
+	font-weight: bold;
+	font-style: italic;
+	/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+	src: url('../fonts/Delicious-BoldItalic.otf');
+}
+
