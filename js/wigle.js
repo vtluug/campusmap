@@ -2,7 +2,7 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 	name: "WiGLE",
 	//url: 'http://wigle.net/gps/gps//GPSDB/onlinemap2/',
 	url: 'http://a.tile.map.vtluug.org/wigle/',
-	attribution: "Wifi data &copy; 2011 <a href='http://wigle.net' rel='external'>WiGLE</a>",
+	attribution: "Wifi data &copy; 2012 <a href='http://wigle.net' rel='external'>WiGLE</a>",
 
 	isBaseLayer: false,
 	sphericalMercator: true,
@@ -15,6 +15,7 @@ OpenLayers.Layer.WiGLE = OpenLayers.Class(OpenLayers.Layer.XYZ, {
 		options = OpenLayers.Util.extend({
 				tileSize: new OpenLayers.Size(256, 256),
 				numZoomLevels: 24,
+				maxResolution: 9000,
 				buffer: 0,
 				sphericalMercator: true,
 		}, options);
