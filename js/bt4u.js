@@ -23,6 +23,7 @@ function loadBusStops()
 {
     busStops    = new OpenLayers.Layer.Vector("Bus Stops", {
         displayInLayerSwitcher: false,
+        maxResolution:          3,
         protocol:               new OpenLayers.Protocol.HTTP({
             url:                STOPS_OSM_URL,
             format:             new OpenLayers.Format.OSM()
