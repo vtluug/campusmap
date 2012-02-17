@@ -31,12 +31,20 @@ $(document).ready(function(){
     // https://wiki.openstreetmap.org/wiki/Virginia#2009_VBMP_Orthoimagery
 	//vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
 	vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
-	arcgis_add("VBMP 2009 (Aerial)", vbmp2009);
+	arcgis_add("VBMP 2009 (Aerial)", vbmp2009, {
+	    transitionEffect:   'resize',
+	    maxExtent:          new OpenLayers.Bounds(-20037508.34, -20037508.34,
+            20037508.34, 20037508.34),
+	});
 
     // VBMP 2011 imagery from VGIN
 	//vbmp2011 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2011/VBMP2011_WGS/MapServer";
     vbmp2011 = "http://c.tile.map.vtluug.org/vbmp2011";
-	arcgis_add("VBMP 2011 (Aerial)", vbmp2011);
+	arcgis_add("VBMP 2011 (Aerial)", vbmp2011, {
+	    transitionEffect:   'resize',
+	    maxExtent:          new OpenLayers.Bounds(-20037508.342787, -20037508.342787,
+            20037508.342787, 20037508.342787),
+    });
 });
 
 $(window).resize(function(){
@@ -63,7 +71,9 @@ function initMap()
 	});
 
 	// OpenStreetMap base layer
-	mapnik = new OpenLayers.Layer.OSM.Mapnik('OpenStreetMap');
+	mapnik = new OpenLayers.Layer.OSM.Mapnik('OpenStreetMap', {
+	    transitionEffect: 'resize',
+	});
 	map.addLayer(mapnik);
 
 	// Markers layer
