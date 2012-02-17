@@ -27,11 +27,16 @@ $(document).ready(function(){
 	wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
 	map.addLayer(wigle);
 
-    // VBMP 2009 imagery, apparently public domain as of early 2012
+    // VBMP 2009 imagery from VGIN, apparently public domain as of early 2012
     // https://wiki.openstreetmap.org/wiki/Virginia#2009_VBMP_Orthoimagery
 	//vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
 	vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
 	arcgis_add("VBMP 2009 (Aerial)", vbmp2009);
+
+    // VBMP 2011 imagery from VGIN
+	//vbmp2011 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2011/VBMP2011_WGS/MapServer";
+    vbmp2011 = "http://c.tile.map.vtluug.org/vbmp2011";
+	arcgis_add("VBMP 2011 (Aerial)", vbmp2011);
 });
 
 $(window).resize(function(){
