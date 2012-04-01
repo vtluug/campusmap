@@ -1,7 +1,5 @@
 // initial location and zoom
-lat = 37.231797472275744;
-lon = -80.42846213700699;
-INITIAL_ZOOM = 15;
+lat = 37.231797472275744; lon = -80.42846213700699; INITIAL_ZOOM = 15;
 CLOSER_ZOOM = 17;
 
 EPSG_4326 = new OpenLayers.Projection('EPSG:4326');
@@ -21,7 +19,6 @@ $(document).ready(function(){
 	});
 
 	initMap();
-	initBusData();
 	initSearch();
 
 	wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
@@ -125,4 +122,12 @@ function addMarker(layer, ll, popupClass, popupContent, data)
 	marker.events.register('mousedown', feature, markerClick);
 
 	layer.addMarker(marker);
+}
+
+/**
+ * Santize HTML.
+ */
+function safe(s)
+{
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
