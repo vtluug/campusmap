@@ -1,11 +1,5 @@
 OSM_URL = "/interactive.osm";
 
-routeId = "";
-updateTimer = null;
-
-// FIXME: handle relations properly; may need to process so that each relation
-// is converted to a way
-
 
 /**
  * Initialize interactive data.
@@ -42,7 +36,6 @@ $(document).ready(function()
     });
     map.addControl(control);
 
-    // FIXME: we can only have one active control at a time, this will have to be merged into bus stop layer
     control.activate();
 });
 

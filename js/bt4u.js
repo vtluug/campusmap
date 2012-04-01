@@ -1,6 +1,5 @@
 BT4U_API_URL = "/bt4u";
 ROUTES_OSM_URL = "/routes.osm";
-STOPS_OSM_URL = "/stops.osm";
 
 routeId = "";
 updateTimer = null;
