@@ -35,8 +35,11 @@ $(document).ready(function()
  */
 function loadArrivalTimes(route, stop)
 {
-    $.get(BT4U_API_URL + '/stop/' + route + '/' + stop, function(data){
-        times   = $.parseJSON(data);
+    $.ajax({
+        'url': BT4U_API_URL + '/stop/' + route + '/' + stop, 
+        'dataType': 'json',
+    }).done(function(data){
+        times = data['times'];
         if(times.length > 0)
         {
             $('#arrival_times').html('<ul></ul>');
@@ -47,7 +50,8 @@ function loadArrivalTimes(route, stop)
         }
         else {
             $('#arrival_times').html("No runs currently scheduled for this " +
-                "stop on this route"); }
+                "stop on this route");
+        }
     });
 }
 

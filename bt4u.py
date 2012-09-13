@@ -1,17 +1,15 @@
 #!/usr/bin/python2
 
-import csv
 import datetime
 import flask
-import json
 import lxml.html
-import sys
 import urllib
 import urllib2
 
 BT4U_URL = 'http://bt4u.org' 
 
 app = flask.Flask(__name__)
+app.debug = True
 
 def get_asp_crap(doc):
     """Get __VIEWSTATE and __EVENTVALIDATION from hidden form elements."""
@@ -23,6 +21,14 @@ def get_asp_crap(doc):
 def parse_routes(doc):
     listbox = doc.getroot().get_element_by_id('routeListBox')
     return listbox.value_options[1:]
+
+def parse_stops(doc):
+    listbox = doc.getroot().get_element_by_id('stopListBox')
+    stops = {}
+    for option in listbox.value_options[1:]:
+        code, stopname = option.split('-')
+        stops[int(code)] = option
+    return stops
 
 def route_stop_info(route, stop):
     r = urllib2.urlopen(BT4U_URL)
@@ -44,13 +50,16 @@ def route_stop_info(route, stop):
     r = urllib2.urlopen(BT4U_URL, data_encoded)
     doc = lxml.html.parse(r)
     vs, ev = get_asp_crap(doc)
+    stops = parse_stops(doc)
+    if stop not in stops:
+        return None
 
     data = {
         '__VIEWSTATE' : vs,
         '__EVENTVALIDATION' : ev,
         '__EVENTTARGET' : 'stopListBox',
         'routeListBox' : route,
-        'stopListBox' : stop,
+        'stopListBox' : stops[stop],
         'Button1' : 'Submit',
     }
     data_encoded = urllib.urlencode(data) #.encode('utf-8')
@@ -65,7 +74,8 @@ def route_stop_info(route, stop):
         times = []
         for entry in entries[1::2]:
             arrival = entry.text_content().split(': ')[1].strip()
-            arrival = datetime.datetime.strptime(arrival, '%m/%d/%Y %I:%M:%S %p')
+            arrival = datetime.datetime.strptime(arrival,
+                    '%b-%d-%Y %I:%M %p')
             times.append(str(arrival))
 
         return times
@@ -75,10 +85,7 @@ def route_stop_info(route, stop):
 @app.route('/stop/<route>/<int:stop>')
 def stop_info(route, stop):
     times = route_stop_info(route, stop)
-    if times:
-        return json.dumps(times)
-    else:
-        return '[]'
+    return flask.jsonify({'times': times})
 
 if __name__ == '__main__':
     app.run()
