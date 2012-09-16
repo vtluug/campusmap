@@ -1,7 +1,6 @@
 @import 'fonts.css';
 
-body
-{
+body {
     margin: 0;
     padding: 0;
     background: #f5f5eb;
@@ -9,15 +8,13 @@ body
     font-size: 90%;
 }
 
-h1, h4
-{
+h1, h4 {
     font-family: "Delicious", "Trebuchet MS", "DejaVu Sans", "Bitstream Vera Sans", sans-serif;
     font-weight: bold;
 }
 
 #infobox,
-.olPopup
-{
+.olPopup {
     background: #fff !important;
     border: 1px solid #dbd8bc !important;
     border-radius: 6px;
@@ -25,8 +22,7 @@ h1, h4
 }
 
 /* Info box {{{ */
-#infobox
-{
+#infobox {
     position: absolute;
     z-index: 100000;
     top: 24px;
@@ -35,64 +31,61 @@ h1, h4
     padding: 12px;
 }
 
-#infobox h1
-{
+#infobox h1 {
     margin: 0;
 }
 
-#infobox button
-{
+#infobox button {
     float: right;
     margin-top: 4px;
 }
 
-#infobox_content
-{
+#infobox_content {
     margin-top: 12px;
 }
 
-p.bus_stop
-{
+p.bus_stop {
     background: url(/images/bus_stop.p.12.png) center left no-repeat;
     padding-left: 24px;
 }
 
-#map_toolbar button
-{
+#map_toolbar button {
     float: right;
     margin: 1px 1px 1px 10px;
 }
 
-#map_search
-{
+#map_search {
     padding-top: 2px;
+}
+
+@media screen and (max-width: 650px) {
+    /* Hide info box on smaller displays */
+    #infobox {
+        display: none;
+    }
 }
 /* }}} */
 
 /* Map elements {{{ */
-.olControlAttribution
-{
+.olControlAttribution {
     bottom: 3px !important;
     font-size: 0.8em !important;
-    text-shadow: 0 0 2px 2px #fff;
+    text-shadow: 0 0 2px #fff;
     opacity: 0.6;
 }
 
 .olControlLayerSwitcher > div > span,
-.olControlLayerSwitcher .layersDiv
-{
+.olControlLayerSwitcher .layersDiv {
     background: #333 !important;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
 
-.olControlOverviewMapElement
-{
+.olControlOverviewMapElement {
     background: #666;
 }
 
-.olPopup h4
-{
+.olPopup h4 {
     margin: 0 0 6px 0;
     padding: 0;
     font-size: 1.4em;
@@ -100,7 +93,6 @@ p.bus_stop
 }
 /* }}} */
 
-.clear
-{
+.clear {
     clear: both;
 }
