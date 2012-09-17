@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2012-09-17T00:24:03Z"/>
+<meta osm_base="2012-09-17T05:36:02Z"/>
 
   <node id="1916294067" lat="37.2312318" lon="-80.4243571">
     <tag k="man_made" v="surveillance"/>
@@ -387,12 +387,6 @@
     <tag k="name" v="Library Plaza Webcam"/>
     <tag k="surveillance" v="outdoor"/>
     <tag k="url" v="http://198.82.159.134/local/viewer/index.shtml"/>
-  </node>
-  <node id="1918032189" lat="37.2280601" lon="-80.4253824">
-    <tag k="man_made" v="surveillance"/>
-    <tag k="name" v="Robeson Hall Webcam"/>
-    <tag k="surveillance" v="outdoor"/>
-    <tag k="url" v="http://www.phys.vt.edu/~dilbert/webcam.php"/>
   </node>
 
 </osm>
