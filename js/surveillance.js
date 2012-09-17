@@ -35,6 +35,10 @@ $(function(){
 
             var popupHtml = "<h4>" + safe(feature.data.name) + "</h4>";
 
+            if(feature.data['level']) {
+                popupHtml += "Level: " + safe(feature.data['level']) + "<br />";
+            }
+
             if(feature.data['url']) {
                 popupHtml += "<a href='" + 
                     safe(feature.data['url']).replace("'", '') + "'>View</a>";
