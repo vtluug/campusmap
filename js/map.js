@@ -15,7 +15,7 @@ var map;
 
 OpenLayers.ImgPath = "/images/openlayers/dark/";
 
-$(document).ready(function(){
+$(function(){
     $('#map').width($(window).width())
     $('#map').height($(window).height())
     $('#infobox button').click(function(){
@@ -25,13 +25,13 @@ $(document).ready(function(){
     initMap();
     initSearch();
 
-    wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
+    var wigle = new OpenLayers.Layer.WiGLE('WiGLE', { visibility: false });
     map.addLayer(wigle);
 
     // VBMP 2009 imagery from VGIN, apparently public domain as of early 2012
     // https://wiki.openstreetmap.org/wiki/Virginia#2009_VBMP_Orthoimagery
-    //vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
-    vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
+    //var vbmp2009 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2009/VBMP2009_WGS/MapServer";
+    var vbmp2009 = "http://b.tile.map.vtluug.org/vbmp2009";
     arcgis_add("VBMP 2009 (Aerial)", vbmp2009, {
         transitionEffect:   'resize',
         maxExtent:          new OpenLayers.Bounds(-20037508.34, -20037508.34,
@@ -39,8 +39,8 @@ $(document).ready(function(){
     });
 
     // VBMP 2011 imagery from VGIN
-    //vbmp2011 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2011/VBMP2011_WGS/MapServer";
-    vbmp2011 = "http://c.tile.map.vtluug.org/vbmp2011";
+    //var vbmp2011 = "http://gismaps.virginia.gov/arcgis2/rest/services/VBMP2011/VBMP2011_WGS/MapServer";
+    var vbmp2011 = "http://c.tile.map.vtluug.org/vbmp2011";
     arcgis_add("VBMP 2011 (Aerial)", vbmp2011, {
         transitionEffect:   'resize',
         maxExtent:          new OpenLayers.Bounds(-20037508.342787, -20037508.342787,
@@ -98,7 +98,7 @@ function initMap()
  */
 function addMarker(layer, ll, popupClass, popupContent, data)
 {
-    feature = new OpenLayers.Feature(layer, ll);
+    var feature = new OpenLayers.Feature(layer, ll);
     feature.closeBox = data['closeBox'];
     feature.popupClass = popupClass;
     feature.data.popupContentHTML = popupContent;
@@ -109,7 +109,7 @@ function addMarker(layer, ll, popupClass, popupContent, data)
         feature.data.icon = data['icon'];
     }
 
-    marker = feature.createMarker();
+    var marker = feature.createMarker();
 
     markerClick = function(e)
     {

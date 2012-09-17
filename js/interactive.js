@@ -1,16 +1,12 @@
-OSM_URL = "/interactive.osm";
-
-
 /**
  * Initialize interactive data.
  */
-$(document).ready(function()
-{
-    interactiveLayer    = new OpenLayers.Layer.Vector("Interactive", {
+$(function(){
+    var interactiveLayer = new OpenLayers.Layer.Vector("Interactive", {
         displayInLayerSwitcher: false,
         maxResolution:          3,
         protocol:               new OpenLayers.Protocol.HTTP({
-            url:                OSM_URL,
+            url:                "/interactive.osm",
             format:             new OpenLayers.Format.OSM()
         }),
         strategies:             [new OpenLayers.Strategy.Fixed()],
@@ -30,7 +26,7 @@ $(document).ready(function()
     });
     map.addLayer(interactiveLayer);
 
-    control = new OpenLayers.Control.SelectFeature([interactiveLayer], {
+    var control = new OpenLayers.Control.SelectFeature([interactiveLayer], {
         onSelect:               showPopup,
         onUnselect:             hidePopup,
     });
@@ -47,7 +43,7 @@ function showPopup(feature)
     if(!feature.data.name)
         return;
 
-    popupHtml       = "<h4>" + safe(feature.data.name) + "</h4>";
+    var popupHtml = "<h4>" + safe(feature.data.name) + "</h4>";
 
     if(feature.data['public_transport'] == 'stop_position')
     {

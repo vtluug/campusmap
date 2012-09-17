@@ -8,8 +8,7 @@ updateTimer = null;
 /**
  * Initialize bus data; load routes.
  */
-$(document).ready(function()
-{
+$(function(){
     $.get(ROUTES_OSM_URL, function(data){
         $(data).find('relation').each(function(){
             routeObj    = $(this);
