@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2012-09-17T05:36:02Z"/>
+<meta osm_base="2012-09-17T20:02:03Z"/>
 
   <node id="1916294067" lat="37.2312318" lon="-80.4243571">
     <tag k="man_made" v="surveillance"/>
@@ -16,8 +16,10 @@
   </node>
   <node id="1916294100" lat="37.2287104" lon="-80.4233413">
     <tag k="man_made" v="surveillance"/>
+    <tag k="name" v="Burruss Hall Webcam"/>
     <tag k="operator" v="Virginia Tech"/>
-    <tag k="surveillance" v="public"/>
+    <tag k="surveillance" v="webcam;public"/>
+    <tag k="url" v="http://128.173.201.214/view/viewer_index.shtml?id=107"/>
   </node>
   <node id="1916294101" lat="37.2287152" lon="-80.4233348">
     <tag k="man_made" v="surveillance"/>
@@ -54,13 +56,6 @@
     <tag k="man_made" v="surveillance"/>
     <tag k="operator" v="Virginia Tech"/>
     <tag k="surveillance" v="indoor"/>
-  </node>
-  <node id="1916389468" lat="37.2287168" lon="-80.4233477">
-    <tag k="man_made" v="surveillance"/>
-    <tag k="name" v="Burruss Hall Webcam"/>
-    <tag k="operator" v="Virginia Tech"/>
-    <tag k="surveillance" v="webcam"/>
-    <tag k="url" v="http://128.173.201.214/view/viewer_index.shtml?id=107"/>
   </node>
   <node id="1916389469" lat="37.2278112" lon="-80.4196833">
     <tag k="man_made" v="surveillance"/>
@@ -252,12 +247,12 @@
     <tag k="operator" v="United States Postal Service"/>
     <tag k="surveillance" v="outdoor"/>
   </node>
-  <node id="1917386008" lat="37.2300060" lon="-80.4311198">
+  <node id="1917386008" lat="37.2300033" lon="-80.4311317">
     <tag k="man_made" v="surveillance"/>
     <tag k="operator" v="Virginia Tech"/>
     <tag k="surveillance" v="outdoor"/>
   </node>
-  <node id="1917386009" lat="37.2300252" lon="-80.4294482">
+  <node id="1917386009" lat="37.2300076" lon="-80.4295420">
     <tag k="man_made" v="surveillance"/>
     <tag k="operator" v="Virginia Tech"/>
     <tag k="surveillance" v="outdoor"/>
@@ -376,17 +371,60 @@
     <tag k="operator" v="Virginia Tech"/>
     <tag k="surveillance" v="indoor"/>
   </node>
-  <node id="1918032187" lat="37.2287168" lon="-80.4233477">
-    <tag k="man_made" v="surveillance"/>
-    <tag k="name" v="Burruss Hall Webcam"/>
-    <tag k="surveillance" v="outdoor"/>
-    <tag k="url" v="http://128.173.201.214/view/viewer_index.shtml?id=107"/>
-  </node>
   <node id="1918032188" lat="37.2277672" lon="-80.4194357">
     <tag k="man_made" v="surveillance"/>
     <tag k="name" v="Library Plaza Webcam"/>
     <tag k="surveillance" v="outdoor"/>
     <tag k="url" v="http://198.82.159.134/local/viewer/index.shtml"/>
+  </node>
+  <node id="1918680578" lat="37.2309081" lon="-80.4266894">
+    <tag k="level" v="4"/>
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918781070" lat="37.2284697" lon="-80.4190357">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918781071" lat="37.2284654" lon="-80.4190544">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918781072" lat="37.2284620" lon="-80.4190695">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918879351" lat="37.2301617" lon="-80.4163635">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918879353" lat="37.2301655" lon="-80.4163568">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1918879354" lat="37.2301694" lon="-80.4163500">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="public"/>
+  </node>
+  <node id="1919053508" lat="37.2294000" lon="-80.4290449">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="operator" v="Virginia Tech"/>
+    <tag k="surveillance" v="outdoor"/>
+  </node>
+  <node id="1919053509" lat="37.2351943" lon="-80.4347943">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="surveillance" v="outdoor"/>
+  </node>
+  <node id="1919053510" lat="37.2359655" lon="-80.4351847">
+    <tag k="man_made" v="surveillance"/>
+    <tag k="surveillance" v="outdoor"/>
   </node>
 
 </osm>
