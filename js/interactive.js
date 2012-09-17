@@ -1,8 +1,10 @@
+var interactiveLayer;
+
 /**
  * Initialize interactive data.
  */
 $(function(){
-    var interactiveLayer = new OpenLayers.Layer.Vector("Interactive", {
+    interactiveLayer = new OpenLayers.Layer.Vector("Interactive", {
         displayInLayerSwitcher: false,
         maxResolution:          3,
         protocol:               new OpenLayers.Protocol.HTTP({
@@ -26,73 +28,65 @@ $(function(){
     });
     map.addLayer(interactiveLayer);
 
-    var control = new OpenLayers.Control.SelectFeature([interactiveLayer], {
-        onSelect:               showPopup,
-        onUnselect:             hidePopup,
-    });
+    var control = new OpenLayers.Control.SelectFeature([interactiveLayer]);
     map.addControl(control);
+
+    interactiveLayer.events.on({
+        'featureselected': function(e){
+            var feature = e.feature;
+            if(!feature.data.name)
+                return;
+
+            var popupHtml = "<h4>" + safe(feature.data.name) + "</h4>";
+
+            if(feature.data['public_transport'] == 'stop_position')
+            {
+                if(typeof getBusRouteSelector != 'function')
+                    return;
+
+                popupHtml  += getBusRouteSelector(feature);
+            }
+            else if(feature.data['building'])
+            {
+                if(feature.data['url:wiki'])
+                {
+                    popupHtml  += "<a href='" +
+                        safe(feature.data['url:wiki']).replace("'", '') +
+                        "' rel='external'>Wiki</a>";
+                }
+                else {
+                    return;
+                }
+            }
+
+            feature.popup = new OpenLayers.Popup.Anchored('info_box',
+                    feature.geometry.getBounds().getCenterLonLat(),
+                    new OpenLayers.Size(300, 160),
+                    popupHtml,
+                    null,
+                    false,
+                    null);
+            map.addPopup(feature.popup);
+
+            if(feature.data['public_transport'] == 'stop_position')
+            {
+                $('#popup_route_selector').change(function(){
+                    $('#arrival_times').empty();
+                    route = $('#popup_route_selector option:selected').val();
+                    if(route == '') return;
+                    loadArrivalTimes(route, feature.data.ref);
+                });
+            }
+        },
+        'featureunselected': function(e){
+            var feature = e.feature;
+            if(!feature.popup)
+                return;
+
+            map.removePopup(feature);
+            feature.popup.destroy();
+        },
+    });
 
     control.activate();
 });
-
-/**
- * Show a info popup.
- */
-function showPopup(feature)
-{
-    if(!feature.data.name)
-        return;
-
-    var popupHtml = "<h4>" + safe(feature.data.name) + "</h4>";
-
-    if(feature.data['public_transport'] == 'stop_position')
-    {
-        if(typeof getBusRouteSelector != 'function')
-            return;
-
-        popupHtml  += getBusRouteSelector(feature);
-    }
-    else if(feature.data['building'])
-    {
-        if(feature.data['url:wiki'])
-        {
-            popupHtml  += "<a href='" +
-                safe(feature.data['url:wiki']).replace("'", '') +
-                "' rel='external'>Wiki</a>";
-        }
-        else {
-            return;
-        }
-    }
-
-    feature.popup = new OpenLayers.Popup.Anchored('info_box',
-            feature.geometry.getBounds().getCenterLonLat(),
-            new OpenLayers.Size(300, 160),
-            popupHtml,
-            null,
-            false,
-            null);
-    map.addPopup(feature.popup);
-
-    if(feature.data['public_transport'] == 'stop_position')
-    {
-        $('#popup_route_selector').change(function(){
-            $('#arrival_times').empty();
-            route = $('#popup_route_selector option:selected').val();
-            if(route == '') return;
-            loadArrivalTimes(route, feature.data.ref);
-        });
-    }
-}
-
-/**
- * Hide the info popup.
- */
-function hidePopup(feature)
-{
-    if(!feature.popup)
-        return;
-
-    map.removePopup(feature);
-    feature.popup.destroy();
-}

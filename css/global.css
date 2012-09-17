@@ -21,6 +21,14 @@ h1, h4 {
     box-shadow: 0 0 2px 2px rgba(255, 255, 255, 153);
 }
 
+.olPopup img {
+    display: none;
+}
+
+.olFramedCloudPopupContent {
+    padding: 0 !important;
+}
+
 /* Info box {{{ */
 #infobox {
     position: absolute;
