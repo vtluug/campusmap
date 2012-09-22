@@ -62,12 +62,16 @@ function initMap()
         controls            : [
             new OpenLayers.Control.Attribution(),
             new OpenLayers.Control.Navigation(),
-            new OpenLayers.Control.PanZoomBar(),
             new OpenLayers.Control.LayerSwitcher({'ascending':false}),
             new OpenLayers.Control.ScaleLine({geodesic: true})
         ],
         units                : 'm',
     });
+
+    if(!window.Touch) {
+        // show pan/zoom bar only if no touch is available
+        map.addControl(new OpenLayers.Control.PanZoomBar());
+    }
 
     // OpenStreetMap base layer
     mapnik = new OpenLayers.Layer.OSM("OpenStreetMap", [
