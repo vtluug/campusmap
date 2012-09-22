@@ -62,6 +62,7 @@ function initMap()
         controls            : [
             new OpenLayers.Control.Attribution(),
             new OpenLayers.Control.Navigation(),
+            new OpenLayers.Control.Geolocate(),
             new OpenLayers.Control.LayerSwitcher({'ascending':false}),
             new OpenLayers.Control.ScaleLine({geodesic: true})
         ],
